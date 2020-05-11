@@ -1,0 +1,235 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <per.goweii.actionbarex.common.ActionBarCommon
+        android:id="@+id/abc"
+        style="@style/ActionBar.Common.Back"
+        app:abc_rightText="保存"
+        app:abc_rightTextColor="@color/app_text_color_black"
+        app:abc_rightTextSize="16sp"
+        app:abc_titleTextSize="18sp"
+        app:abc_titleText="新增地址" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:background="@color/white"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@color/white"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="true"
+            android:singleLine="true"
+            android:textColor="@color/app_text_color_black"
+            android:textSize="14sp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="收货人" />
+
+        <EditText
+            android:id="@+id/new_address_name"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_marginLeft="97dp"
+            android:layout_marginRight="50dp"
+            android:layout_centerVertical="true"
+            android:hint="姓名"
+            android:background="@color/white"
+            android:maxLines="1"
+            android:gravity="center_vertical"
+            android:textColor="@color/app_text_color_black"
+            android:textColorHint="#999999"
+            android:textSize="14sp" />
+        
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="15.5dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="19dp"
+            android:src="@drawable/ic_gerenxinxi"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="#EBEBEB"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@color/white"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="true"
+            android:singleLine="true"
+            android:textColor="@color/app_text_color_black"
+            android:textSize="14sp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="手机号码" />
+
+        <EditText
+            android:id="@+id/new_address_phone"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_marginLeft="97dp"
+            android:layout_marginRight="50dp"
+            android:layout_centerVertical="true"
+            android:hint="11位手机号"
+            android:background="@color/white"
+            android:maxLines="1"
+            android:maxLength="11"
+            android:inputType="phone"
+            android:gravity="center_vertical"
+            android:textColor="@color/app_text_color_black"
+            android:textColorHint="#999999"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="#EBEBEB"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@color/white"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="true"
+            android:singleLine="true"
+            android:textColor="@color/app_text_color_black"
+            android:textSize="14sp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="地区信息" />
+
+        <EditText
+            android:id="@+id/new_address_address"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_marginLeft="97dp"
+            android:layout_marginRight="50dp"
+            android:layout_centerVertical="true"
+            android:hint="地区信息"
+            android:background="@color/white"
+            android:maxLines="1"
+            android:gravity="center_vertical"
+            android:textColor="@color/app_text_color_black"
+            android:textColorHint="#999999"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="15.5dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="19dp"
+            android:src="@drawable/ic_address"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="#EBEBEB"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@color/white"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="true"
+            android:singleLine="true"
+            android:textColor="@color/app_text_color_black"
+            android:textSize="14sp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="详细地址" />
+
+        <EditText
+            android:id="@+id/new_address_detail"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_marginLeft="97dp"
+            android:layout_marginRight="15dp"
+            android:layout_centerVertical="true"
+            android:hint="街道门牌信息"
+            android:background="@color/white"
+            android:maxLines="1"
+            android:gravity="center_vertical"
+            android:textColor="@color/app_text_color_black"
+            android:textColorHint="#999999"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="#EBEBEB"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@color/white"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="true"
+            android:singleLine="true"
+            android:textColor="@color/app_text_color_black"
+            android:textSize="14sp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="邮政编码" />
+
+        <EditText
+            android:id="@+id/new_address_number"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_marginLeft="97dp"
+            android:layout_marginRight="50dp"
+            android:layout_centerVertical="true"
+            android:hint="邮政编码"
+            android:background="@color/white"
+            android:maxLines="1"
+            android:gravity="center_vertical"
+            android:textColor="@color/app_text_color_black"
+            android:textColorHint="#999999"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

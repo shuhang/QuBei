@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yuzhix.idiom"
+    android:targetSandboxVersion="2"
+    android:versionCode="28"
+    android:versionName="1.2.5" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" /> -->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.yuzhix.idiom.common.WanApp"
+        android:allowBackup="false"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="趣呗定位"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.Normal" >
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="65c9d5075803b5d3f32a2234" />
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="11443e6013e2c027b7eaea41f56f8a0d" />
+        <!-- module.main -->
+        <!-- <activity -->
+        <!-- android:name=".module.main.activity.SplashActivity" -->
+        <!-- android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" -->
+        <!-- android:theme="@style/AppTheme.Splash" /> -->
+        <!-- <activity -->
+        <!-- android:name=".module.main.activity.RouterActivity" -->
+        <!-- android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" -->
+        <!-- android:launchMode="singleTask" -->
+        <!-- android:theme="@style/AppTheme.Router"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.VIEW" /> -->
+
+
+        <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+        <!-- <category android:name="android.intent.category.BROWSABLE" /> -->
+
+
+        <!-- <data android:scheme="https" /> -->
+        <!-- </intent-filter> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.SEND" /> -->
+        <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+        <!-- <data android:mimeType="text/plain" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity
+            android:name="com.yuzhix.idiom.module.main.activity.MainActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode"
+            android:theme="@style/AppTheme.Main" >
+        </activity>
+        <activity
+            android:name="com.yuzhix.idiom.module.main.activity.CrashActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode"
+            android:process=":error_activity" />
+        <activity
+            android:name="com.yuzhix.idiom.module.main.activity.WebActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.yuzhix.idiom.module.main.activity.ShareArticleActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+
+        <!-- module.home -->
+        <activity
+            android:name="com.yuzhix.idiom.module.home.activity.SearchActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.yuzhix.idiom.module.home.activity.UserArticleActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.yuzhix.idiom.module.home.activity.UserPageActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode"
+            android:launchMode="singleTask" />
+
+        <!-- module.knowledge -->
+        <activity
+            android:name="com.yuzhix.idiom.module.knowledge.activity.KnowledgeArticleActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+
+        <!-- module.login -->
+        <activity
+            android:name="com.yuzhix.idiom.module.login.activity.LoginActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode"
+            android:theme="@style/AppTheme.Login" />
+
+        <!-- module.mine -->
+        <activity
+            android:name="com.yuzhix.idiom.module.mine.activity.CollectionActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.yuzhix.idiom.module.mine.activity.ReadLaterActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.yuzhix.idiom.module.mine.activity.OpenActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.yuzhix.idiom.module.mine.activity.AboutMeActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.yuzhix.idiom.module.mine.activity.SettingActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.yuzhix.idiom.module.mine.activity.AboutActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.yuzhix.idiom.module.mine.activity.CoinActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.yuzhix.idiom.module.mine.activity.CoinRankActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.yuzhix.idiom.module.mine.activity.MineShareActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.yuzhix.idiom.module.mine.activity.HostInterruptActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.yuzhix.idiom.module.mine.activity.Chunjie1Activity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.yuzhix.idiom.module.ShuHang.Tab2.Activity.MoreSettingActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.yuzhix.idiom.module.ShuHang.Tab2.Activity.FeedbackActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.yuzhix.idiom.module.ShuHang.Tab2.Activity.NewAddressActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.yuzhix.idiom.module.ShuHang.Tab2.Activity.ConfirmOrderActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.yuzhix.idiom.module.ShuHang.Tab2.Activity.ReplaceBillActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.yuzhix.idiom.module.StarMap.SMStartActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.yuzhix.idiom.module.StarMap.WelcomeActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode"
+            android:theme="@style/AppTheme.Main" >
+        </activity>
+        <activity
+            android:name="com.yuzhix.idiom.module.StarMap.SMLoginActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.yuzhix.idiom.module.StarMap.SMCreateAccountActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.yuzhix.idiom.module.StarMap.SMSetPasswordActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.yuzhix.idiom.module.StarMap.SMCheckPhoneActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.yuzhix.idiom.module.StarMap.SMForgetPasswordActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.yuzhix.idiom.module.StarMap.SMWebActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.yuzhix.idiom.module.StarMap.SMMyInfoActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.yuzhix.idiom.module.StarMap.SMSettingActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.yuzhix.idiom.module.StarMap.SMSetTagActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.yuzhix.idiom.module.StarMap.SMHeadListActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.yuzhix.idiom.module.StarMap.SMMessageSystemListActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.yuzhix.idiom.module.StarMap.SMMessageActivityListActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.yuzhix.idiom.module.StarMap.SMMessageCommentListActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.yuzhix.idiom.module.StarMap.SMMessageLikeListActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.yuzhix.idiom.module.StarMap.SMUserInfoActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.yuzhix.idiom.module.StarMap.SMFocusUserListActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.yuzhix.idiom.wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="wx2ed6d6d9c21ee99c" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.yuzhix.idiom.module.QB.QBAddFriendActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.yuzhix.idiom.module.QB.QBGuidePermissionActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.yuzhix.idiom.module.QB.QBBuyActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.yuzhix.idiom.module.QB.QBLoginActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.yuzhix.idiom.module.QB.QBMainActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.yuzhix.idiom.module.QB.QBMineActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.yuzhix.idiom.module.QB.QBSettingLocationActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.yuzhix.idiom.module.QB.QBSettingActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.yuzhix.idiom.module.QB.QBServiceActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.yuzhix.idiom.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_path" />
+        </provider>
+
+        <activity
+            android:name="cat.ereza.customactivityoncrash.activity.DefaultErrorActivity"
+            android:process=":error_activity" />
+
+        <provider
+            android:name="cat.ereza.customactivityoncrash.provider.CaocInitProvider"
+            android:authorities="com.yuzhix.idiom.customactivityoncrashinitprovider"
+            android:exported="false"
+            android:initOrder="101" />
+        <provider
+            android:name="per.goweii.swipeback.SwipeBackProvider"
+            android:authorities="com.yuzhix.idiom.swipebackprovider"
+            android:exported="false"
+            android:multiprocess="true" />
+        <provider
+            android:name="com.luck.picture.lib.PictureFileProvider"
+            android:authorities="com.yuzhix.idiom.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name="com.luck.picture.lib.PictureSelectorActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.luck.picture.lib.PicturePreviewActivity" />
+        <activity
+            android:name="com.luck.picture.lib.PictureVideoPlayActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="sensor" />
+        <activity android:name="com.luck.picture.lib.PictureExternalPreviewActivity" />
+        <activity android:name="com.yalantis.ucrop.UCropActivity" />
+        <activity android:name="com.yalantis.ucrop.PictureMultiCuttingActivity" />
+        <activity android:name="com.luck.picture.lib.PicturePlayAudioActivity" />
+
+        <provider
+            android:name="com.just.agentweb.AgentWebFileProvider"
+            android:authorities="com.yuzhix.idiom.AgentWebFileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/web_files_paths" />
+        </provider>
+
+        <activity
+            android:name="com.just.agentweb.ActionActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:launchMode="standard"
+            android:theme="@style/actionActivity"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+        </activity>
+
+        <meta-data
+            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+            android:value="GlideModule" />
+
+        <activity
+            android:name="com.yanzhenjie.permission.bridge.BridgeActivity"
+            android:theme="@style/Permission.Theme" />
+
+        <provider
+            android:name="com.yanzhenjie.permission.FileProvider"
+            android:authorities="com.yuzhix.idiom.file.path.share"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/permission_file_paths" />
+        </provider>
+
+        <activity
+            android:name="per.goweii.anylayer.LayerActivity"
+            android:theme="@style/LayerActivityTheme" />
+
+        <provider
+            android:name="per.goweii.anylayer.ActivityProvider"
+            android:authorities="com.yuzhix.idiom.activityprovider"
+            android:exported="false"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

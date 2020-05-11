@@ -1,0 +1,918 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:268:9-276:20
+	android:grantUriPermissions
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:272:13-47
+	android:authorities
+		INJECTED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:270:13-64
+	android:exported
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:271:13-37
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:269:13-67
+manifest
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:2:1-280:12
+INJECTED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:2:1-280:12
+INJECTED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:2:1-280:12
+INJECTED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:2:1-280:12
+MERGED from [io.realm:realm-android-library:5.12.0-SNAPSHOT] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/8a093736cfefaf89822ea376f54a9f81/AndroidManifest.xml:2:1-10:12
+MERGED from [:basic_core] /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/basic_core/build/intermediates/manifests/full/release/AndroidManifest.xml:2:1-17:12
+MERGED from [com.github.goweii:KeyboardCompat:1.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/6d031c5cc5af128f061d526ef753facf/AndroidManifest.xml:2:1-11:12
+MERGED from [cat.ereza:customactivityoncrash:2.2.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ffb17d991cc25f345c461c36b52193e2/AndroidManifest.xml:2:1-23:12
+MERGED from [:basic_ui] /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/basic_ui/build/intermediates/manifests/full/release/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.goweii:RxHttp:2.2.9] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/0646ef92c17896d46a01b7525c316e00/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.goweii:AnyPermission:1.1.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/1535b176d38bc98548260fe0d4f15583/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.goweii:SwipeBack:1.0.7] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ec3ab957f45e5028dfa4ca542821aaa8/AndroidManifest.xml:2:1-19:12
+MERGED from [com.github.goweii.LazyFragment:lazyfragment:1.1.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/1359473c27d05d5e7877d2e12ce5125e/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a8688803e64cb41166ffd5f2cc32be6e/AndroidManifest.xml:2:1-36:12
+MERGED from [com.github.goweii.PictureSelector:ucrop:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/960c5fe5f1ca4be4f883033c66856b68/AndroidManifest.xml:2:1-11:12
+MERGED from [:basic_utils] /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/basic_utils/build/intermediates/manifests/full/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:basic_res] /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/basic_res/build/intermediates/manifests/full/release/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/836f64f45cde751be95496dd0100aca5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.goweii:AnyDialog:3.0.3] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/5fd8807be50e1de16576e19278269d58/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.goweii:PercentImageView:1.0.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/96d76e1e52a1495249e58f68467b7ab6/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.hackware1993:MagicIndicator:1.6.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/25d1ad73c163573eac99f52fe0223722/AndroidManifest.xml:2:1-9:12
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/1a5cfba7d00aa4e5394c1685e5792851/AndroidManifest.xml:6:1-16:12
+MERGED from [com.github.goweii.ActionBarEx:actionbarex-common:3.2.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/9001fc586dc72c4c7ce54728a4f9a8cf/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.goweii.ActionBarEx:actionbarex:3.2.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/1aed529569ae341ef0836d3b14edfdcd/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.goweii:StatusBarCompat:1.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d5c240db9a6798fe274f9556d58a356b/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/230c00065a1a55f3cadef225d597ec91/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/12d8122c47d76e69920438561a2343e7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android:flexbox:1.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/5ac586ef26ac28cde4cdd84869b6c041/AndroidManifest.xml:17:1-27:12
+MERGED from [com.github.mmin18:realtimeblurview:1.1.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ca4616fe1742a9bf30c4921a6348215c/AndroidManifest.xml:2:1-11:12
+MERGED from [com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/42698f49c8417a6faa48fcb4f0f20121/AndroidManifest.xml:2:1-35:12
+MERGED from [com.youth.banner:banner:1.4.10] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d6c585b376f184da2c31ffb7949d2f0a/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.franmontiel:PersistentCookieJar:v1.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/2ddcdddcdac06d7dd0df3155457a7914/AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.goweii:RevealLayout:1.2.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/7cc27f4c5a7656ec4243db47c4987bdd/AndroidManifest.xml:2:1-11:12
+MERGED from [com.daimajia.swipelayout:library:1.2.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/f83020cefd1b9ab5293adefc482a16f9/AndroidManifest.xml:2:1-10:12
+MERGED from [com.github.Kennyc1012:MultiStateView:1.3.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/1b69d393990252efb3d1dbd91ddcb6fe/AndroidManifest.xml:2:1-14:12
+MERGED from [com.tencent.bugly:crashreport:3.1.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/32fa6b38b082640b6984e605bf529a23/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:multidex:1.0.3] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/f6229ff1dc39cb9338491744b2c0948c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.3.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/2bbcfe14186ab6c4e1fb4d9073775b92/AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/f63ae205dd7c971b04ce612903a31a1e/AndroidManifest.xml:2:1-16:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/0c69f071776dbc888d71ba4cc186e2de/AndroidManifest.xml:2:1-12:12
+MERGED from [com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/3c48e7fc51dcdc916d877631be1eb189/AndroidManifest.xml:17:1-40:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d30012ed9e6a126e52b0cff5680c6a2b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/e137ac7854483859f049fd11c43f1b05/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/541618ef60a3acab2c2eb4fa4f0a7374/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/7d4f73730a5e60aa7d4641cd7230122e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/975b13fd58782a1bf8fef83699751e0d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/feba181ee3941e5921ac10e11a21d6aa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/0fd37d060c8c91ebdcb30f001a1c1240/AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:loader:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/461953cceef51674ba58c5d966b69619/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/7bb8b105a9f7218f42c3beeb0900d586/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/13acb8e0e648571b317e43c8764da3d2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/79da5ad7af5e39f037ad59d226627146/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a32385fdd58399b8867fe9ceaac3a2ba/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/3849beaec1f676a7c14e763a3e2423c6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/020d888c882d22f393a229cadd6099c1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/00942053316f415a8984585bdd831089/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/5db9aa054031500c022b32232e9f1f92/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ddbddbdbbf42d9c72356e7adef5641fc/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/0ad299c05ac1cd4ef003ab774fadb569/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a4b813d37890b95b1904d4b63be6e007/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/5e35ff2a3356226b9e1cd112cb23a67d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/f7027d14c148e109e71758d734149754/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/8fc482571ff5be921a1351cfa91a33ac/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/431fb35cbe59903192657414e8c2b9cc/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/6d5bb9abbf2065c94e288aa94844de82/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/e7f12cf1120b4a447ff6a843040a0ae1/AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/2817e08f8fa601a28e4663a11e180e21/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/fbcd01e7b3ee6bb5589aba6f6511fc1a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/389682ab674a1abe7bdaa0760ef66667/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/f982ed07853ad55d43bdeb35bb568480/AndroidManifest.xml:17:1-22:12
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/cce0f7ce0bc61cdd0912932cdbad114e/AndroidManifest.xml:2:1-17:12
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.46] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/5266805cb60868c0bdd6ce6019d853c6/AndroidManifest.xml:2:1-11:12
+MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/6cf3256405e08d76734cdd2751c9f801/AndroidManifest.xml:2:1-9:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ba4086bbc759ab75f4e60b17a51151e6/AndroidManifest.xml:2:1-11:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/f17d71349b95f29f43b8f953e32888f0/AndroidManifest.xml:15:1-21:12
+MERGED from [com.github.goweii:Blurred:1.3.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a705246413551d694c3d56f5e79d1fe3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.goweii.AnyLayer:anylayer-common:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/23189d3830166a74680f04a442ae9a32/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.goweii.AnyLayer:anylayer:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/5743b435ae635f3f80667edf8cbf5ed5/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:2:1-280:12
+INJECTED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:2:1-280:12
+INJECTED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:2:1-280:12
+	package
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:4:5-36
+		INJECTED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:2:1-280:12
+		INJECTED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:2:1-280:12
+		INJECTED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:6:5-83
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:6:22-80
+uses-permission#android.permission.READ_LOGS
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:8:5-10:47
+	tools:ignore
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:10:9-44
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:9:9-52
+uses-permission#android.permission.INTERNET
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:12:5-67
+MERGED from [:basic_core] /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/basic_core/build/intermediates/manifests/full/release/AndroidManifest.xml:11:5-67
+MERGED from [:basic_core] /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/basic_core/build/intermediates/manifests/full/release/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:12:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:13:5-81
+MERGED from [:basic_core] /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/basic_core/build/intermediates/manifests/full/release/AndroidManifest.xml:15:5-81
+MERGED from [:basic_core] /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/basic_core/build/intermediates/manifests/full/release/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:13:22-78
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:14:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:15:5-79
+MERGED from [:basic_core] /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/basic_core/build/intermediates/manifests/full/release/AndroidManifest.xml:12:5-79
+MERGED from [:basic_core] /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/basic_core/build/intermediates/manifests/full/release/AndroidManifest.xml:12:5-79
+MERGED from [com.github.goweii:RxHttp:2.2.9] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/0646ef92c17896d46a01b7525c316e00/AndroidManifest.xml:11:5-79
+MERGED from [com.github.goweii:RxHttp:2.2.9] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/0646ef92c17896d46a01b7525c316e00/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:15:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:16:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:17:5-75
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:17:22-72
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:18:5-76
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:18:22-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:19:5-76
+MERGED from [:basic_core] /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/basic_core/build/intermediates/manifests/full/release/AndroidManifest.xml:13:5-76
+MERGED from [:basic_core] /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/basic_core/build/intermediates/manifests/full/release/AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:19:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:20:5-68
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:20:22-65
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:22:5-85
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:22:22-82
+application
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:24:5-278:19
+MERGED from [cat.ereza:customactivityoncrash:2.2.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ffb17d991cc25f345c461c36b52193e2/AndroidManifest.xml:11:5-21:19
+MERGED from [cat.ereza:customactivityoncrash:2.2.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ffb17d991cc25f345c461c36b52193e2/AndroidManifest.xml:11:5-21:19
+MERGED from [com.github.goweii:SwipeBack:1.0.7] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ec3ab957f45e5028dfa4ca542821aaa8/AndroidManifest.xml:11:5-17:19
+MERGED from [com.github.goweii:SwipeBack:1.0.7] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ec3ab957f45e5028dfa4ca542821aaa8/AndroidManifest.xml:11:5-17:19
+MERGED from [com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a8688803e64cb41166ffd5f2cc32be6e/AndroidManifest.xml:11:5-34:19
+MERGED from [com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a8688803e64cb41166ffd5f2cc32be6e/AndroidManifest.xml:11:5-34:19
+MERGED from [com.android.support:design:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/836f64f45cde751be95496dd0100aca5/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/836f64f45cde751be95496dd0100aca5/AndroidManifest.xml:22:5-20
+MERGED from [com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/42698f49c8417a6faa48fcb4f0f20121/AndroidManifest.xml:11:5-33:19
+MERGED from [com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/42698f49c8417a6faa48fcb4f0f20121/AndroidManifest.xml:11:5-33:19
+MERGED from [com.github.franmontiel:PersistentCookieJar:v1.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/2ddcdddcdac06d7dd0df3155457a7914/AndroidManifest.xml:12:5-20
+MERGED from [com.github.franmontiel:PersistentCookieJar:v1.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/2ddcdddcdac06d7dd0df3155457a7914/AndroidManifest.xml:12:5-20
+MERGED from [com.github.Kennyc1012:MultiStateView:1.3.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/1b69d393990252efb3d1dbd91ddcb6fe/AndroidManifest.xml:12:5-20
+MERGED from [com.github.Kennyc1012:MultiStateView:1.3.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/1b69d393990252efb3d1dbd91ddcb6fe/AndroidManifest.xml:12:5-20
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/f63ae205dd7c971b04ce612903a31a1e/AndroidManifest.xml:10:5-14:19
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/f63ae205dd7c971b04ce612903a31a1e/AndroidManifest.xml:10:5-14:19
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/0c69f071776dbc888d71ba4cc186e2de/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/0c69f071776dbc888d71ba4cc186e2de/AndroidManifest.xml:10:5-20
+MERGED from [com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/3c48e7fc51dcdc916d877631be1eb189/AndroidManifest.xml:24:5-38:19
+MERGED from [com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/3c48e7fc51dcdc916d877631be1eb189/AndroidManifest.xml:24:5-38:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ddbddbdbbf42d9c72356e7adef5641fc/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ddbddbdbbf42d9c72356e7adef5641fc/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/0ad299c05ac1cd4ef003ab774fadb569/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/0ad299c05ac1cd4ef003ab774fadb569/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/e7f12cf1120b4a447ff6a843040a0ae1/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/e7f12cf1120b4a447ff6a843040a0ae1/AndroidManifest.xml:9:5-20
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/cce0f7ce0bc61cdd0912932cdbad114e/AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/cce0f7ce0bc61cdd0912932cdbad114e/AndroidManifest.xml:11:5-15:19
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ba4086bbc759ab75f4e60b17a51151e6/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ba4086bbc759ab75f4e60b17a51151e6/AndroidManifest.xml:9:5-20
+MERGED from [com.github.goweii.AnyLayer:anylayer:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/5743b435ae635f3f80667edf8cbf5ed5/AndroidManifest.xml:11:5-21:19
+MERGED from [com.github.goweii.AnyLayer:anylayer:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/5743b435ae635f3f80667edf8cbf5ed5/AndroidManifest.xml:11:5-21:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ddbddbdbbf42d9c72356e7adef5641fc/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:30:9-35
+	android:label
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:28:9-29
+		REJECTED from [com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/42698f49c8417a6faa48fcb4f0f20121/AndroidManifest.xml:13:9-41
+	tools:ignore
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:32:9-64
+	android:icon
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:27:9-43
+	android:allowBackup
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:26:9-36
+		REJECTED from [com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/42698f49c8417a6faa48fcb4f0f20121/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:31:9-47
+	android:networkSecurityConfig
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:29:9-69
+	tools:replace
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:33:9-58
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:25:9-59
+meta-data#JPUSH_APPKEY
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:35:9-90
+	android:value
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:35:48-88
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:35:20-47
+meta-data#com.amap.api.v2.apikey
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:37:9-39:63
+	android:value
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:39:13-61
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:38:13-50
+service#com.amap.api.location.APSService
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:41:9-76
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:41:18-65
+activity#com.pku45a.difference.module.main.activity.MainActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:43:9-47:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:45:13-108
+	android:theme
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:46:13-49
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:44:13-83
+activity#com.pku45a.difference.module.main.activity.CrashActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:48:9-51:49
+	android:process
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:51:13-46
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:50:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:49:13-84
+activity#com.pku45a.difference.module.main.activity.WebActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:52:9-54:111
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:54:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:53:13-82
+activity#com.pku45a.difference.module.main.activity.ShareArticleActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:55:9-57:111
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:57:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:56:13-91
+activity#com.pku45a.difference.module.home.activity.SearchActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:60:9-62:111
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:62:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:61:13-85
+activity#com.pku45a.difference.module.home.activity.UserArticleActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:63:9-65:111
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:65:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:64:13-90
+activity#com.pku45a.difference.module.home.activity.UserPageActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:66:9-69:47
+	android:launchMode
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:69:13-44
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:68:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:67:13-87
+activity#com.pku45a.difference.module.knowledge.activity.KnowledgeArticleActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:72:9-74:111
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:74:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:73:13-100
+activity#com.pku45a.difference.module.login.activity.LoginActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:77:9-80:53
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:79:13-108
+	android:theme
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:80:13-50
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:78:13-85
+activity#com.pku45a.difference.module.mine.activity.CollectionActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:83:9-85:111
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:85:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:84:13-89
+activity#com.pku45a.difference.module.mine.activity.ReadLaterActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:86:9-88:111
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:88:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:87:13-88
+activity#com.pku45a.difference.module.mine.activity.OpenActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:89:9-91:111
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:91:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:90:13-83
+activity#com.pku45a.difference.module.mine.activity.AboutMeActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:92:9-94:111
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:94:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:93:13-86
+activity#com.pku45a.difference.module.mine.activity.SettingActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:95:9-97:111
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:97:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:96:13-86
+activity#com.pku45a.difference.module.mine.activity.AboutActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:98:9-100:111
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:100:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:99:13-84
+activity#com.pku45a.difference.module.mine.activity.CoinActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:101:9-103:111
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:103:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:102:13-83
+activity#com.pku45a.difference.module.mine.activity.CoinRankActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:104:9-106:111
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:106:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:105:13-87
+activity#com.pku45a.difference.module.mine.activity.MineShareActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:107:9-109:111
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:109:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:108:13-88
+activity#com.pku45a.difference.module.mine.activity.HostInterruptActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:110:9-112:111
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:112:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:111:13-92
+activity#com.pku45a.difference.module.mine.activity.Chunjie1Activity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:113:9-115:111
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:115:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:114:13-87
+activity#com.pku45a.difference.module.ShuHang.Tab2.Activity.MoreSettingActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:116:9-118:111
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:118:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:117:13-98
+activity#com.pku45a.difference.module.ShuHang.Tab2.Activity.FeedbackActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:119:9-121:111
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:121:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:120:13-95
+activity#com.pku45a.difference.module.ShuHang.Tab2.Activity.NewAddressActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:122:9-124:111
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:124:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:123:13-97
+activity#com.pku45a.difference.module.ShuHang.Tab2.Activity.ConfirmOrderActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:125:9-127:111
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:127:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:126:13-99
+activity#com.pku45a.difference.module.ShuHang.Tab2.Activity.ReplaceBillActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:128:9-130:111
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:130:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:129:13-98
+activity#com.pku45a.difference.module.StarMap.SMStartActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:132:9-135:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:134:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:133:13-80
+activity#com.pku45a.difference.module.StarMap.WelcomeActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:136:9-140:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:138:13-108
+	android:theme
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:139:13-49
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:137:13-80
+activity#com.pku45a.difference.module.StarMap.SMLoginActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:141:9-144:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:143:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:142:13-80
+activity#com.pku45a.difference.module.StarMap.SMCreateAccountActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:145:9-148:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:147:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:146:13-88
+activity#com.pku45a.difference.module.StarMap.SMSetPasswordActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:149:9-152:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:151:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:150:13-86
+activity#com.pku45a.difference.module.StarMap.SMCheckPhoneActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:153:9-156:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:155:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:154:13-85
+activity#com.pku45a.difference.module.StarMap.SMForgetPasswordActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:157:9-160:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:159:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:158:13-89
+activity#com.pku45a.difference.module.StarMap.SMWebActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:161:9-164:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:163:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:162:13-78
+activity#com.pku45a.difference.module.StarMap.SMMyInfoActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:165:9-168:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:167:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:166:13-81
+activity#com.pku45a.difference.module.StarMap.SMSettingActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:169:9-172:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:171:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:170:13-82
+activity#com.pku45a.difference.module.StarMap.SMSetTagActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:173:9-176:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:175:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:174:13-81
+activity#com.pku45a.difference.module.StarMap.SMHeadListActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:177:9-180:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:179:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:178:13-83
+activity#com.pku45a.difference.module.StarMap.SMMessageSystemListActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:181:9-184:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:183:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:182:13-92
+activity#com.pku45a.difference.module.StarMap.SMMessageActivityListActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:185:9-188:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:187:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:186:13-94
+activity#com.pku45a.difference.module.StarMap.SMMessageCommentListActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:189:9-192:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:191:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:190:13-93
+activity#com.pku45a.difference.module.StarMap.SMMessageLikeListActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:193:9-196:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:195:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:194:13-90
+activity#com.pku45a.difference.module.StarMap.SMUserInfoActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:197:9-200:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:199:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:198:13-83
+activity#com.pku45a.difference.module.StarMap.SMFocusUserListActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:201:9-204:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:203:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:202:13-88
+activity#com.pku45a.difference.wxapi.WXPayEntryActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:205:9-215:20
+	android:launchMode
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:208:13-43
+	android:exported
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:207:13-36
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:206:13-74
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:209:13-213:29
+action#android.intent.action.VIEW
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:210:17-68
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:210:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:211:17-75
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:211:27-73
+data
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:212:17-60
+	android:scheme
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:212:23-58
+activity#com.pku45a.difference.module.QB.QBAddFriendActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:216:9-219:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:218:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:217:13-79
+activity#com.pku45a.difference.module.QB.QBGuidePermissionActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:220:9-223:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:222:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:221:13-85
+activity#com.pku45a.difference.module.QB.QBBuyActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:224:9-227:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:226:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:225:13-73
+activity#com.pku45a.difference.module.QB.QBLoginActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:228:9-231:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:230:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:229:13-75
+activity#com.pku45a.difference.module.QB.QBMainActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:232:9-235:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:234:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:233:13-74
+activity#com.pku45a.difference.module.QB.QBMineActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:236:9-239:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:238:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:237:13-74
+activity#com.pku45a.difference.module.QB.QBSettingLocationActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:240:9-243:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:242:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:241:13-85
+activity#com.pku45a.difference.module.QB.QBSettingActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:244:9-247:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:246:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:245:13-77
+activity#com.pku45a.difference.module.QB.QBServiceActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:248:9-251:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:250:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:249:13-77
+activity#com.pku45a.difference.module.QB.QBLocalWebActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:252:9-255:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:254:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:253:13-78
+activity#com.pku45a.difference.module.QB.QBAddContactActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:256:9-259:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:258:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:257:13-80
+activity#com.pku45a.difference.module.QB.QBSplashActivity
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:260:9-267:20
+	android:configChanges
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:262:13-108
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:261:13-76
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:263:13-266:29
+action#android.intent.action.MAIN
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:264:17-69
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:264:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:265:17-77
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:265:27-74
+uses-sdk
+INJECTED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml
+MERGED from [io.realm:realm-android-library:5.12.0-SNAPSHOT] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/8a093736cfefaf89822ea376f54a9f81/AndroidManifest.xml:6:5-8:41
+MERGED from [io.realm:realm-android-library:5.12.0-SNAPSHOT] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/8a093736cfefaf89822ea376f54a9f81/AndroidManifest.xml:6:5-8:41
+MERGED from [:basic_core] /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/basic_core/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:basic_core] /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/basic_core/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.goweii:KeyboardCompat:1.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/6d031c5cc5af128f061d526ef753facf/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.goweii:KeyboardCompat:1.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/6d031c5cc5af128f061d526ef753facf/AndroidManifest.xml:7:5-9:41
+MERGED from [cat.ereza:customactivityoncrash:2.2.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ffb17d991cc25f345c461c36b52193e2/AndroidManifest.xml:7:5-9:41
+MERGED from [cat.ereza:customactivityoncrash:2.2.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ffb17d991cc25f345c461c36b52193e2/AndroidManifest.xml:7:5-9:41
+MERGED from [:basic_ui] /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/basic_ui/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:basic_ui] /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/basic_ui/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.goweii:RxHttp:2.2.9] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/0646ef92c17896d46a01b7525c316e00/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.goweii:RxHttp:2.2.9] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/0646ef92c17896d46a01b7525c316e00/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.goweii:AnyPermission:1.1.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/1535b176d38bc98548260fe0d4f15583/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.goweii:AnyPermission:1.1.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/1535b176d38bc98548260fe0d4f15583/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.goweii:SwipeBack:1.0.7] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ec3ab957f45e5028dfa4ca542821aaa8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.goweii:SwipeBack:1.0.7] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ec3ab957f45e5028dfa4ca542821aaa8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.goweii.LazyFragment:lazyfragment:1.1.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/1359473c27d05d5e7877d2e12ce5125e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.goweii.LazyFragment:lazyfragment:1.1.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/1359473c27d05d5e7877d2e12ce5125e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a8688803e64cb41166ffd5f2cc32be6e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a8688803e64cb41166ffd5f2cc32be6e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.goweii.PictureSelector:ucrop:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/960c5fe5f1ca4be4f883033c66856b68/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.goweii.PictureSelector:ucrop:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/960c5fe5f1ca4be4f883033c66856b68/AndroidManifest.xml:7:5-9:41
+MERGED from [:basic_utils] /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/basic_utils/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:basic_utils] /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/basic_utils/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:basic_res] /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/basic_res/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:basic_res] /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/basic_res/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/836f64f45cde751be95496dd0100aca5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/836f64f45cde751be95496dd0100aca5/AndroidManifest.xml:20:5-44
+MERGED from [com.github.goweii:AnyDialog:3.0.3] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/5fd8807be50e1de16576e19278269d58/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.goweii:AnyDialog:3.0.3] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/5fd8807be50e1de16576e19278269d58/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.goweii:PercentImageView:1.0.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/96d76e1e52a1495249e58f68467b7ab6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.goweii:PercentImageView:1.0.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/96d76e1e52a1495249e58f68467b7ab6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.hackware1993:MagicIndicator:1.6.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/25d1ad73c163573eac99f52fe0223722/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.hackware1993:MagicIndicator:1.6.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/25d1ad73c163573eac99f52fe0223722/AndroidManifest.xml:5:5-7:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/1a5cfba7d00aa4e5394c1685e5792851/AndroidManifest.xml:12:5-14:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/1a5cfba7d00aa4e5394c1685e5792851/AndroidManifest.xml:12:5-14:41
+MERGED from [com.github.goweii.ActionBarEx:actionbarex-common:3.2.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/9001fc586dc72c4c7ce54728a4f9a8cf/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.goweii.ActionBarEx:actionbarex-common:3.2.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/9001fc586dc72c4c7ce54728a4f9a8cf/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.goweii.ActionBarEx:actionbarex:3.2.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/1aed529569ae341ef0836d3b14edfdcd/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.goweii.ActionBarEx:actionbarex:3.2.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/1aed529569ae341ef0836d3b14edfdcd/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.goweii:StatusBarCompat:1.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d5c240db9a6798fe274f9556d58a356b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.goweii:StatusBarCompat:1.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d5c240db9a6798fe274f9556d58a356b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/230c00065a1a55f3cadef225d597ec91/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/230c00065a1a55f3cadef225d597ec91/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/12d8122c47d76e69920438561a2343e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/12d8122c47d76e69920438561a2343e7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android:flexbox:1.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/5ac586ef26ac28cde4cdd84869b6c041/AndroidManifest.xml:23:5-25:41
+MERGED from [com.google.android:flexbox:1.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/5ac586ef26ac28cde4cdd84869b6c041/AndroidManifest.xml:23:5-25:41
+MERGED from [com.github.mmin18:realtimeblurview:1.1.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ca4616fe1742a9bf30c4921a6348215c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.mmin18:realtimeblurview:1.1.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ca4616fe1742a9bf30c4921a6348215c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/42698f49c8417a6faa48fcb4f0f20121/AndroidManifest.xml:7:5-9:41
+MERGED from [com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/42698f49c8417a6faa48fcb4f0f20121/AndroidManifest.xml:7:5-9:41
+MERGED from [com.youth.banner:banner:1.4.10] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d6c585b376f184da2c31ffb7949d2f0a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.youth.banner:banner:1.4.10] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d6c585b376f184da2c31ffb7949d2f0a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.franmontiel:PersistentCookieJar:v1.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/2ddcdddcdac06d7dd0df3155457a7914/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.franmontiel:PersistentCookieJar:v1.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/2ddcdddcdac06d7dd0df3155457a7914/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.goweii:RevealLayout:1.2.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/7cc27f4c5a7656ec4243db47c4987bdd/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.goweii:RevealLayout:1.2.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/7cc27f4c5a7656ec4243db47c4987bdd/AndroidManifest.xml:7:5-9:41
+MERGED from [com.daimajia.swipelayout:library:1.2.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/f83020cefd1b9ab5293adefc482a16f9/AndroidManifest.xml:6:5-8:41
+MERGED from [com.daimajia.swipelayout:library:1.2.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/f83020cefd1b9ab5293adefc482a16f9/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.Kennyc1012:MultiStateView:1.3.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/1b69d393990252efb3d1dbd91ddcb6fe/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.Kennyc1012:MultiStateView:1.3.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/1b69d393990252efb3d1dbd91ddcb6fe/AndroidManifest.xml:8:5-10:41
+MERGED from [com.tencent.bugly:crashreport:3.1.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/32fa6b38b082640b6984e605bf529a23/AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:crashreport:3.1.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/32fa6b38b082640b6984e605bf529a23/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:multidex:1.0.3] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/f6229ff1dc39cb9338491744b2c0948c/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.3] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/f6229ff1dc39cb9338491744b2c0948c/AndroidManifest.xml:20:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.3.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/2bbcfe14186ab6c4e1fb4d9073775b92/AndroidManifest.xml:5:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.3.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/2bbcfe14186ab6c4e1fb4d9073775b92/AndroidManifest.xml:5:5-43
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/f63ae205dd7c971b04ce612903a31a1e/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/f63ae205dd7c971b04ce612903a31a1e/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/0c69f071776dbc888d71ba4cc186e2de/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/0c69f071776dbc888d71ba4cc186e2de/AndroidManifest.xml:6:5-8:41
+MERGED from [com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/3c48e7fc51dcdc916d877631be1eb189/AndroidManifest.xml:20:5-22:41
+MERGED from [com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/3c48e7fc51dcdc916d877631be1eb189/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d30012ed9e6a126e52b0cff5680c6a2b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d30012ed9e6a126e52b0cff5680c6a2b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/e137ac7854483859f049fd11c43f1b05/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/e137ac7854483859f049fd11c43f1b05/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/541618ef60a3acab2c2eb4fa4f0a7374/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/541618ef60a3acab2c2eb4fa4f0a7374/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/7d4f73730a5e60aa7d4641cd7230122e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/7d4f73730a5e60aa7d4641cd7230122e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/975b13fd58782a1bf8fef83699751e0d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/975b13fd58782a1bf8fef83699751e0d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/feba181ee3941e5921ac10e11a21d6aa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/feba181ee3941e5921ac10e11a21d6aa/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/0fd37d060c8c91ebdcb30f001a1c1240/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/0fd37d060c8c91ebdcb30f001a1c1240/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:loader:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/461953cceef51674ba58c5d966b69619/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/461953cceef51674ba58c5d966b69619/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/7bb8b105a9f7218f42c3beeb0900d586/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/7bb8b105a9f7218f42c3beeb0900d586/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/13acb8e0e648571b317e43c8764da3d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/13acb8e0e648571b317e43c8764da3d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/79da5ad7af5e39f037ad59d226627146/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/79da5ad7af5e39f037ad59d226627146/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a32385fdd58399b8867fe9ceaac3a2ba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a32385fdd58399b8867fe9ceaac3a2ba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/3849beaec1f676a7c14e763a3e2423c6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/3849beaec1f676a7c14e763a3e2423c6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/020d888c882d22f393a229cadd6099c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/020d888c882d22f393a229cadd6099c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/00942053316f415a8984585bdd831089/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/00942053316f415a8984585bdd831089/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/5db9aa054031500c022b32232e9f1f92/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/5db9aa054031500c022b32232e9f1f92/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ddbddbdbbf42d9c72356e7adef5641fc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ddbddbdbbf42d9c72356e7adef5641fc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/0ad299c05ac1cd4ef003ab774fadb569/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/0ad299c05ac1cd4ef003ab774fadb569/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a4b813d37890b95b1904d4b63be6e007/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a4b813d37890b95b1904d4b63be6e007/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/5e35ff2a3356226b9e1cd112cb23a67d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/5e35ff2a3356226b9e1cd112cb23a67d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/f7027d14c148e109e71758d734149754/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/f7027d14c148e109e71758d734149754/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/8fc482571ff5be921a1351cfa91a33ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/8fc482571ff5be921a1351cfa91a33ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/431fb35cbe59903192657414e8c2b9cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/431fb35cbe59903192657414e8c2b9cc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/6d5bb9abbf2065c94e288aa94844de82/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/6d5bb9abbf2065c94e288aa94844de82/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/e7f12cf1120b4a447ff6a843040a0ae1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/e7f12cf1120b4a447ff6a843040a0ae1/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/2817e08f8fa601a28e4663a11e180e21/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/2817e08f8fa601a28e4663a11e180e21/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/fbcd01e7b3ee6bb5589aba6f6511fc1a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/fbcd01e7b3ee6bb5589aba6f6511fc1a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/389682ab674a1abe7bdaa0760ef66667/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/389682ab674a1abe7bdaa0760ef66667/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/f982ed07853ad55d43bdeb35bb568480/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/f982ed07853ad55d43bdeb35bb568480/AndroidManifest.xml:20:5-44
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/cce0f7ce0bc61cdd0912932cdbad114e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/cce0f7ce0bc61cdd0912932cdbad114e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.46] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/5266805cb60868c0bdd6ce6019d853c6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.46] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/5266805cb60868c0bdd6ce6019d853c6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/6cf3256405e08d76734cdd2751c9f801/AndroidManifest.xml:7:5-43
+MERGED from [com.makeramen:roundedimageview:2.3.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/6cf3256405e08d76734cdd2751c9f801/AndroidManifest.xml:7:5-43
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ba4086bbc759ab75f4e60b17a51151e6/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ba4086bbc759ab75f4e60b17a51151e6/AndroidManifest.xml:5:5-7:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/f17d71349b95f29f43b8f953e32888f0/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/f17d71349b95f29f43b8f953e32888f0/AndroidManifest.xml:19:5-43
+MERGED from [com.github.goweii:Blurred:1.3.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a705246413551d694c3d56f5e79d1fe3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.goweii:Blurred:1.3.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a705246413551d694c3d56f5e79d1fe3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.goweii.AnyLayer:anylayer-common:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/23189d3830166a74680f04a442ae9a32/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.goweii.AnyLayer:anylayer-common:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/23189d3830166a74680f04a442ae9a32/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.goweii.AnyLayer:anylayer:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/5743b435ae635f3f80667edf8cbf5ed5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.goweii.AnyLayer:anylayer:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/5743b435ae635f3f80667edf8cbf5ed5/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:273:13-275:53
+	android:resource
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:275:17-50
+	android:name
+		ADDED from /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/src/main/AndroidManifest.xml:274:17-67
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:basic_core] /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/basic_core/build/intermediates/manifests/full/release/AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from [:basic_core] /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/basic_core/build/intermediates/manifests/full/release/AndroidManifest.xml:14:22-77
+activity#cat.ereza.customactivityoncrash.activity.DefaultErrorActivity
+ADDED from [cat.ereza:customactivityoncrash:2.2.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ffb17d991cc25f345c461c36b52193e2/AndroidManifest.xml:12:9-14:49
+	android:process
+		ADDED from [cat.ereza:customactivityoncrash:2.2.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ffb17d991cc25f345c461c36b52193e2/AndroidManifest.xml:14:13-46
+	android:name
+		ADDED from [cat.ereza:customactivityoncrash:2.2.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ffb17d991cc25f345c461c36b52193e2/AndroidManifest.xml:13:13-89
+provider#cat.ereza.customactivityoncrash.provider.CaocInitProvider
+ADDED from [cat.ereza:customactivityoncrash:2.2.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ffb17d991cc25f345c461c36b52193e2/AndroidManifest.xml:16:9-20:39
+	android:authorities
+		ADDED from [cat.ereza:customactivityoncrash:2.2.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ffb17d991cc25f345c461c36b52193e2/AndroidManifest.xml:18:13-85
+	android:exported
+		ADDED from [cat.ereza:customactivityoncrash:2.2.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ffb17d991cc25f345c461c36b52193e2/AndroidManifest.xml:19:13-37
+	android:initOrder
+		ADDED from [cat.ereza:customactivityoncrash:2.2.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ffb17d991cc25f345c461c36b52193e2/AndroidManifest.xml:20:13-36
+	android:name
+		ADDED from [cat.ereza:customactivityoncrash:2.2.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ffb17d991cc25f345c461c36b52193e2/AndroidManifest.xml:17:13-85
+provider#per.goweii.swipeback.SwipeBackProvider
+ADDED from [com.github.goweii:SwipeBack:1.0.7] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ec3ab957f45e5028dfa4ca542821aaa8/AndroidManifest.xml:12:9-16:43
+	android:authorities
+		ADDED from [com.github.goweii:SwipeBack:1.0.7] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ec3ab957f45e5028dfa4ca542821aaa8/AndroidManifest.xml:14:13-69
+	android:multiprocess
+		ADDED from [com.github.goweii:SwipeBack:1.0.7] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ec3ab957f45e5028dfa4ca542821aaa8/AndroidManifest.xml:16:13-40
+	android:exported
+		ADDED from [com.github.goweii:SwipeBack:1.0.7] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ec3ab957f45e5028dfa4ca542821aaa8/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [com.github.goweii:SwipeBack:1.0.7] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/ec3ab957f45e5028dfa4ca542821aaa8/AndroidManifest.xml:13:13-66
+provider#com.luck.picture.lib.PictureFileProvider
+ADDED from [com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a8688803e64cb41166ffd5f2cc32be6e/AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a8688803e64cb41166ffd5f2cc32be6e/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a8688803e64cb41166ffd5f2cc32be6e/AndroidManifest.xml:14:13-60
+	android:exported
+		ADDED from [com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a8688803e64cb41166ffd5f2cc32be6e/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a8688803e64cb41166ffd5f2cc32be6e/AndroidManifest.xml:13:13-68
+activity#com.luck.picture.lib.PictureSelectorActivity
+ADDED from [com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a8688803e64cb41166ffd5f2cc32be6e/AndroidManifest.xml:22:9-24:55
+	android:windowSoftInputMode
+		ADDED from [com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a8688803e64cb41166ffd5f2cc32be6e/AndroidManifest.xml:24:13-52
+	android:name
+		ADDED from [com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a8688803e64cb41166ffd5f2cc32be6e/AndroidManifest.xml:23:13-72
+activity#com.luck.picture.lib.PicturePreviewActivity
+ADDED from [com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a8688803e64cb41166ffd5f2cc32be6e/AndroidManifest.xml:25:9-80
+	android:name
+		ADDED from [com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a8688803e64cb41166ffd5f2cc32be6e/AndroidManifest.xml:25:19-77
+activity#com.luck.picture.lib.PictureVideoPlayActivity
+ADDED from [com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a8688803e64cb41166ffd5f2cc32be6e/AndroidManifest.xml:26:9-29:50
+	android:screenOrientation
+		ADDED from [com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a8688803e64cb41166ffd5f2cc32be6e/AndroidManifest.xml:29:13-47
+	android:configChanges
+		ADDED from [com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a8688803e64cb41166ffd5f2cc32be6e/AndroidManifest.xml:28:13-74
+	android:name
+		ADDED from [com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a8688803e64cb41166ffd5f2cc32be6e/AndroidManifest.xml:27:13-73
+activity#com.luck.picture.lib.PictureExternalPreviewActivity
+ADDED from [com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a8688803e64cb41166ffd5f2cc32be6e/AndroidManifest.xml:30:9-88
+	android:name
+		ADDED from [com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a8688803e64cb41166ffd5f2cc32be6e/AndroidManifest.xml:30:19-85
+activity#com.yalantis.ucrop.UCropActivity
+ADDED from [com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a8688803e64cb41166ffd5f2cc32be6e/AndroidManifest.xml:31:9-69
+	android:name
+		ADDED from [com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a8688803e64cb41166ffd5f2cc32be6e/AndroidManifest.xml:31:19-66
+activity#com.yalantis.ucrop.PictureMultiCuttingActivity
+ADDED from [com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a8688803e64cb41166ffd5f2cc32be6e/AndroidManifest.xml:32:9-83
+	android:name
+		ADDED from [com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a8688803e64cb41166ffd5f2cc32be6e/AndroidManifest.xml:32:19-80
+activity#com.luck.picture.lib.PicturePlayAudioActivity
+ADDED from [com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a8688803e64cb41166ffd5f2cc32be6e/AndroidManifest.xml:33:9-82
+	android:name
+		ADDED from [com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a8688803e64cb41166ffd5f2cc32be6e/AndroidManifest.xml:33:19-79
+provider#com.just.agentweb.AgentWebFileProvider
+ADDED from [com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/42698f49c8417a6faa48fcb4f0f20121/AndroidManifest.xml:15:9-23:20
+	android:grantUriPermissions
+		ADDED from [com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/42698f49c8417a6faa48fcb4f0f20121/AndroidManifest.xml:19:13-47
+	android:authorities
+		ADDED from [com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/42698f49c8417a6faa48fcb4f0f20121/AndroidManifest.xml:17:13-72
+	android:exported
+		ADDED from [com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/42698f49c8417a6faa48fcb4f0f20121/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/42698f49c8417a6faa48fcb4f0f20121/AndroidManifest.xml:16:13-66
+activity#com.just.agentweb.ActionActivity
+ADDED from [com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/42698f49c8417a6faa48fcb4f0f20121/AndroidManifest.xml:25:9-32:20
+	android:launchMode
+		ADDED from [com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/42698f49c8417a6faa48fcb4f0f20121/AndroidManifest.xml:29:13-42
+	android:windowSoftInputMode
+		ADDED from [com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/42698f49c8417a6faa48fcb4f0f20121/AndroidManifest.xml:31:13-72
+	android:exported
+		ADDED from [com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/42698f49c8417a6faa48fcb4f0f20121/AndroidManifest.xml:28:13-37
+	android:configChanges
+		ADDED from [com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/42698f49c8417a6faa48fcb4f0f20121/AndroidManifest.xml:27:13-74
+	android:theme
+		ADDED from [com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/42698f49c8417a6faa48fcb4f0f20121/AndroidManifest.xml:30:13-50
+	android:name
+		ADDED from [com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/42698f49c8417a6faa48fcb4f0f20121/AndroidManifest.xml:26:13-60
+meta-data#com.bumptech.glide.integration.okhttp3.OkHttpGlideModule
+ADDED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/f63ae205dd7c971b04ce612903a31a1e/AndroidManifest.xml:11:9-13:43
+	android:value
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/f63ae205dd7c971b04ce612903a31a1e/AndroidManifest.xml:13:13-40
+	android:name
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/f63ae205dd7c971b04ce612903a31a1e/AndroidManifest.xml:12:13-84
+activity#com.yanzhenjie.permission.bridge.BridgeActivity
+ADDED from [com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/3c48e7fc51dcdc916d877631be1eb189/AndroidManifest.xml:25:9-27:55
+	android:theme
+		ADDED from [com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/3c48e7fc51dcdc916d877631be1eb189/AndroidManifest.xml:27:13-52
+	android:name
+		ADDED from [com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/3c48e7fc51dcdc916d877631be1eb189/AndroidManifest.xml:26:13-75
+provider#com.yanzhenjie.permission.FileProvider
+ADDED from [com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/3c48e7fc51dcdc916d877631be1eb189/AndroidManifest.xml:29:9-37:20
+	android:grantUriPermissions
+		ADDED from [com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/3c48e7fc51dcdc916d877631be1eb189/AndroidManifest.xml:33:13-47
+	android:authorities
+		ADDED from [com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/3c48e7fc51dcdc916d877631be1eb189/AndroidManifest.xml:31:13-67
+	android:exported
+		ADDED from [com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/3c48e7fc51dcdc916d877631be1eb189/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/3c48e7fc51dcdc916d877631be1eb189/AndroidManifest.xml:30:13-66
+activity#per.goweii.anylayer.LayerActivity
+ADDED from [com.github.goweii.AnyLayer:anylayer:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/5743b435ae635f3f80667edf8cbf5ed5/AndroidManifest.xml:12:9-14:57
+	android:theme
+		ADDED from [com.github.goweii.AnyLayer:anylayer:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/5743b435ae635f3f80667edf8cbf5ed5/AndroidManifest.xml:14:13-54
+	android:name
+		ADDED from [com.github.goweii.AnyLayer:anylayer:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/5743b435ae635f3f80667edf8cbf5ed5/AndroidManifest.xml:13:13-61
+provider#per.goweii.anylayer.ActivityProvider
+ADDED from [com.github.goweii.AnyLayer:anylayer:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/5743b435ae635f3f80667edf8cbf5ed5/AndroidManifest.xml:16:9-20:43
+	android:authorities
+		ADDED from [com.github.goweii.AnyLayer:anylayer:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/5743b435ae635f3f80667edf8cbf5ed5/AndroidManifest.xml:18:13-68
+	android:multiprocess
+		ADDED from [com.github.goweii.AnyLayer:anylayer:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/5743b435ae635f3f80667edf8cbf5ed5/AndroidManifest.xml:20:13-40
+	android:exported
+		ADDED from [com.github.goweii.AnyLayer:anylayer:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/5743b435ae635f3f80667edf8cbf5ed5/AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from [com.github.goweii.AnyLayer:anylayer:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/5743b435ae635f3f80667edf8cbf5ed5/AndroidManifest.xml:17:13-64

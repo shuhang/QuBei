@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@color/app_yellow"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            >
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/home_page_mine_head"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:background="@color/background"
+                android:scaleType="centerCrop"
+                app:riv_corner_radius="20dp"
+                app:riv_mutate_background="true"
+                tools:src="@drawable/image_holder"
+                />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:includeFontPadding="true"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="纯洁帝完美" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/corner_bg_10">
+
+                <TextView
+                    android:id="@+id/home_page_mine_money_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="true"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="现金（元）" />
+
+                <TextView
+                    android:id="@+id/home_page_mine_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="true"
+                    android:singleLine="true"
+                    android:textColor="#CD5C5C"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/home_page_mine_money_title"
+                    android:layout_marginLeft="20dp"
+                    android:text="2.96" />
+
+                <Button
+                    android:id="@+id/home_page_mine_get_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textSize="16sp"
+                    android:text="去提现 >"
+                    android:background="@color/white"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_below="@+id/home_page_mine_money"
+                    android:stateListAnimator="@null"
+                    />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ic_rank_1"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/corner_bg_10">
+
+                <TextView
+                    android:id="@+id/home_page_mine_coin_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="true"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="金币" />
+
+                <TextView
+                    android:id="@+id/home_page_mine_coin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="true"
+                    android:singleLine="true"
+                    android:textColor="#CD5C5C"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/home_page_mine_coin_title"
+                    android:layout_marginLeft="20dp"
+                    android:text="201,308" />
+
+                <Button
+                    android:id="@+id/home_page_mine_change_coin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textSize="16sp"
+                    android:text="去兑换 >"
+                    android:background="@color/white"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_below="@+id/home_page_mine_coin"
+                    android:stateListAnimator="@null"
+                    />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ic_rank_1"
+                    />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/corner_bg_10">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_password_normal"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="true"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="11dp"
+            android:layout_marginLeft="50dp"
+            android:text="签到有礼" />
+
+        <TextView
+            android:id="@+id/home_page_mine_change_day_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="true"
+            android:layout_alignParentRight="true"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:text="已连续签到 0 天" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+                <Button
+                    android:id="@+id/home_page_mine_sign_1"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:textSize="12sp"
+                    android:text="200"
+                    android:background="@drawable/get_money_sign_bg_normal"
+                    android:gravity="center"
+                    android:stateListAnimator="@null"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone"
+                    />
+
+                <Button
+                    android:id="@+id/home_page_mine_sign_1_1"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:textSize="13sp"
+                    android:text="200"
+                    android:textColor="@color/white"
+                    android:background="@drawable/get_money_sign_bg_signed"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:stateListAnimator="@null"
+                    android:visibility="visible"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="true"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:text="1 天" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+                <Button
+                    android:id="@+id/home_page_mine_sign_2"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:textSize="12sp"
+                    android:text="200"
+                    android:background="@drawable/get_money_sign_bg_normal"
+                    android:gravity="center"
+                    android:stateListAnimator="@null"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:visibility="visible"
+                    />
+
+                <Button
+                    android:id="@+id/home_page_mine_sign_2_1"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:textSize="13sp"
+                    android:text="300"
+                    android:textColor="@color/white"
+                    android:background="@drawable/get_money_sign_bg_signed"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:stateListAnimator="@null"
+                    android:visibility="gone"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="true"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:text="2 天" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+                <Button
+                    android:id="@+id/home_page_mine_sign_3"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:textSize="12sp"
+                    android:text="300"
+                    android:background="@drawable/get_money_sign_bg_normal"
+                    android:gravity="center"
+                    android:stateListAnimator="@null"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:visibility="visible"
+                    />
+
+                <Button
+                    android:id="@+id/home_page_mine_sign_3_1"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:textSize="13sp"
+                    android:text="300"
+                    android:textColor="@color/white"
+                    android:background="@drawable/get_money_sign_bg_signed"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:stateListAnimator="@null"
+                    android:visibility="gone"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="true"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:text="3 天" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+                <Button
+                    android:id="@+id/home_page_mine_sign_4"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:textSize="12sp"
+                    android:text="400"
+                    android:background="@drawable/get_money_sign_bg_normal"
+                    android:gravity="center"
+                    android:stateListAnimator="@null"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:visibility="visible"
+                    />
+
+                <Button
+                    android:id="@+id/home_page_mine_sign_4_1"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:textSize="13sp"
+                    android:text="400"
+                    android:textColor="@color/white"
+                    android:background="@drawable/get_money_sign_bg_signed"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:stateListAnimator="@null"
+                    android:visibility="gone"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="true"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:text="4 天" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+                <Button
+                    android:id="@+id/home_page_mine_sign_5"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:textSize="12sp"
+                    android:text="500"
+                    android:background="@drawable/get_money_sign_bg_normal"
+                    android:gravity="center"
+                    android:stateListAnimator="@null"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:visibility="visible"
+                    />
+
+                <Button
+                    android:id="@+id/home_page_mine_sign_5_1"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:textSize="13sp"
+                    android:text="500"
+                    android:textColor="@color/white"
+                    android:background="@drawable/get_money_sign_bg_signed"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:stateListAnimator="@null"
+                    android:visibility="gone"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="true"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:text="5 天" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+                <Button
+                    android:id="@+id/home_page_mine_sign_6"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:textSize="12sp"
+                    android:text="600"
+                    android:background="@drawable/get_money_sign_bg_normal"
+                    android:gravity="center"
+                    android:stateListAnimator="@null"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:visibility="visible"
+                    />
+
+                <Button
+                    android:id="@+id/home_page_mine_sign_6_1"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:textSize="13sp"
+                    android:text="600"
+                    android:textColor="@color/white"
+                    android:background="@drawable/get_money_sign_bg_signed"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:stateListAnimator="@null"
+                    android:visibility="gone"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="true"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:text="6 天" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+                <Button
+                    android:id="@+id/home_page_mine_sign_7"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:textSize="12sp"
+                    android:text="1000"
+                    android:background="@drawable/get_money_sign_bg_normal"
+                    android:gravity="center"
+                    android:stateListAnimator="@null"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:visibility="visible"
+                    />
+
+                <Button
+                    android:id="@+id/home_page_mine_sign_7_1"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:textSize="13sp"
+                    android:text="1000"
+                    android:textColor="@color/white"
+                    android:background="@drawable/get_money_sign_bg_signed"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:stateListAnimator="@null"
+                    android:visibility="gone"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="true"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:text="7 天" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="181dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:background="@drawable/corner_bg_10">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="59dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_password_normal"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="true"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60dp"
+                android:text="邀请好友" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_password_normal"
+                />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/light_gray"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="59dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_password_normal"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="true"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60dp"
+                android:text="今日排行榜" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_password_normal"
+                />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/light_gray"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="59dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_password_normal"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="true"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60dp"
+                android:text="设置" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_password_normal"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

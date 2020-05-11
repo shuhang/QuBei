@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.goweii.ActionBarEx:actionbarex-common:3.2.1@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9001fc586dc72c4c7ce54728a4f9a8cf/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9001fc586dc72c4c7ce54728a4f9a8cf/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9001fc586dc72c4c7ce54728a4f9a8cf/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.goweii.ActionBarEx/actionbarex-common/3.2.1/5b6280aa1e8115f2d3ce4361b56c5e3c721a01a6/actionbarex-common-3.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

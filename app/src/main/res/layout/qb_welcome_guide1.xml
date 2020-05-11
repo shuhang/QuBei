@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:src="@mipmap/guide_bg1" />
+
+    <Button
+        android:id="@+id/qb_welcome_guide1_button"
+        android:layout_width="147dp"
+        android:layout_height="43dp"
+        android:background="@mipmap/qb_guide_button_bg"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:text="下一步"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="47dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="111dp"
+        >
+
+        <View
+            android:id="@+id/qb_welcome_guide1_dot"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_centerInParent="true" />
+
+        <View
+            android:layout_width="14dp"
+            android:layout_height="7dp"
+            android:layout_toLeftOf="@+id/qb_welcome_guide1_dot"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/qb_guide_blue_dot"/>
+
+        <View
+            android:layout_width="7dp"
+            android:layout_height="7dp"
+            android:layout_toLeftOf="@+id/qb_welcome_guide1_dot"
+            android:layout_marginRight="4.5dp"
+            android:background="@drawable/qb_guide_gray_dot"/>
+
+        <View
+            android:layout_width="7dp"
+            android:layout_height="7dp"
+            android:layout_toRightOf="@+id/qb_welcome_guide1_dot"
+            android:layout_marginLeft="4.5dp"
+            android:background="@drawable/qb_guide_gray_dot"/>
+
+        <View
+            android:layout_width="7dp"
+            android:layout_height="7dp"
+            android:layout_toRightOf="@+id/qb_welcome_guide1_dot"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/qb_guide_gray_dot"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#999999"
+        android:textSize="16sp"
+        android:text="老人出行旅游，安全实时守护"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="134dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#333333"
+        android:textSize="23sp"
+        android:text="与家人保持联络"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="164dp"/>
+
+</RelativeLayout>

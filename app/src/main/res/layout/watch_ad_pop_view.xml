@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#4C000000">
+
+    <RelativeLayout
+        android:layout_width="378dp"
+        android:layout_height="471dp"
+        android:layout_centerInParent="true"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="true"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="172dp"
+            android:text="看广告，抢500乐币！" />
+
+        <Button
+            android:id="@+id/watch_ad_pop_confirm"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:background="@drawable/corner_bg_yellow_12"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="80dp"
+            android:text="点击领取"
+            android:textSize="16sp"
+            android:textColor="@color/app_text_color_black"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

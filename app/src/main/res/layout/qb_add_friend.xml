@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <per.goweii.actionbarex.common.ActionBarCommon
+        android:id="@+id/abc"
+        android:background="@color/white"
+        style="@style/ActionBar.Common.Back"
+        app:abc_leftIconColor="#838383"
+        app:abc_titleTextSize="18sp"
+        app:abc_titleTextColor="@color/black"
+        app:abc_titleText="" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@mipmap/qb_add_friend_bg"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#333333"
+        android:text="你的家人在哪？"
+        android:layout_marginTop="28dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="#999999"
+        android:text="写下你想查询的电话号码"
+        android:layout_marginTop="17dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="#999999"
+        android:text="便可查询到对方相应位置"
+        android:layout_marginTop="2dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="57dp"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:text="+86" />
+
+        <EditText
+            android:id="@+id/qb_addZ_friend_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="43dp"
+            android:background="@null"
+            android:layout_centerVertical="true"
+            android:textSize="16sp"
+            android:maxLength="11"
+            android:inputType="phone"
+            android:hint="需要追踪的手机号" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#F4F4F4"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="66dp">
+
+        <Button
+            android:id="@+id/qb_addZ_friend_button"
+            android:layout_width="169dp"
+            android:layout_height="match_parent"
+            android:background="@mipmap/qb_blue_button_bg"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:text="立即追踪"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

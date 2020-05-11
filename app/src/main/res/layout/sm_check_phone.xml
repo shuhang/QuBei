@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <per.goweii.actionbarex.common.ActionBarCommon
+        android:id="@+id/abc"
+        android:background="@color/white"
+        style="@style/ActionBar.Common.Back"
+        app:abc_leftIconColor="@color/sm_blue"
+        app:abc_titleTextSize="18sp"
+        app:abc_titleText="" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="true"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp"
+        android:text="验证手机号码" />
+
+    <TextView
+        android:id="@+id/sm_check_phone_top_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="true"
+        android:singleLine="false"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:text="请输入手机号13568921535收到的验证码" />
+
+    <ImageView
+        android:id="@+id/sm_check_phone_input_image"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        android:background="@color/app_yellow"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        >
+
+        <com.pku45a.difference.widget.InputView
+            android:id="@+id/sm_check_phone_input_code"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <TextView
+            android:id="@+id/sm_check_phone_text_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:includeFontPadding="true"
+            android:singleLine="false"
+            android:textColor="@color/third"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:text="剩余60秒" />
+
+        <Button
+            android:id="@+id/sm_check_phone_button_get_code"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/sm_blue"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:background="@color/transparent"
+            android:layout_alignParentRight="true"
+            android:text="获取验证码" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/sm_check_phone_button_check"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/corner_bg_blue_25"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp"
+        android:stateListAnimator="@null"
+        android:text="验证"
+        android:textSize="16sp"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

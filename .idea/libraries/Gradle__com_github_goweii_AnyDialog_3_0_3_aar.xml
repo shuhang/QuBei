@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.goweii:AnyDialog:3.0.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5fd8807be50e1de16576e19278269d58/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5fd8807be50e1de16576e19278269d58/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.goweii/AnyDialog/3.0.3/2029d97a6b7595ce87ed16739a3c624a61caf12e/AnyDialog-3.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

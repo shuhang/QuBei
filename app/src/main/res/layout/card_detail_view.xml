@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="208dp"
+        android:layout_height="89dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/corner_bg_white_12">
+
+        <ImageView
+            android:id="@+id/card_detail_view_temp_image"
+            android:layout_width="39dp"
+            android:layout_height="29dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="true"
+            android:singleLine="true"
+            android:textColor="@color/app_text_color_black"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"
+            android:layout_toLeftOf="@id/card_detail_view_temp_image"
+            android:text="刮出3个" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="true"
+            android:singleLine="true"
+            android:textColor="@color/app_text_color_black"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/card_detail_view_temp_image"
+            android:layout_marginLeft="8dp"
+            android:text="为中奖" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="true"
+            android:singleLine="true"
+            android:textColor="@color/app_text_color_black"
+            android:textSize="21sp"
+            android:layout_marginTop="47dp"
+            android:layout_marginLeft="25dp"
+            android:text="赢取" />
+
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="49dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="true"
+            android:singleLine="true"
+            android:textColor="#FF4B4C"
+            android:textSize="22sp"
+            android:layout_marginTop="47dp"
+            android:layout_marginLeft="115dp"
+            android:text="12,200" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="321dp"
+        android:layout_height="321dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="317dp"
+        android:background="@drawable/corner_bg_white_12">
+
+        <ImageView
+            android:id="@+id/card_detail_view_image1"
+            android:layout_width="78dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="14.5dp"
+            android:layout_marginTop="24.5dp"
+            />
+
+        <ImageView
+            android:id="@+id/card_detail_view_image2"
+            android:layout_width="78dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="121.5dp"
+            android:layout_marginTop="24.5dp"
+            />
+
+        <ImageView
+            android:id="@+id/card_detail_view_image3"
+            android:layout_width="78dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="228.5dp"
+            android:layout_marginTop="24.5dp"
+            />
+
+        <ImageView
+            android:id="@+id/card_detail_view_image4"
+            android:layout_width="78dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="14.5dp"
+            android:layout_marginTop="131.5dp"
+            />
+
+        <ImageView
+            android:id="@+id/card_detail_view_image5"
+            android:layout_width="78dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="121.5dp"
+            android:layout_marginTop="131.5dp"
+            />
+
+        <ImageView
+            android:id="@+id/card_detail_view_image6"
+            android:layout_width="78dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="228.5dp"
+            android:layout_marginTop="131.5dp"
+            />
+
+        <ImageView
+            android:id="@+id/card_detail_view_image7"
+            android:layout_width="78dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="14.5dp"
+            android:layout_marginTop="238.5dp"
+            />
+
+        <ImageView
+            android:id="@+id/card_detail_view_image8"
+            android:layout_width="78dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="121.5dp"
+            android:layout_marginTop="238.5dp"
+            />
+
+        <ImageView
+            android:id="@+id/card_detail_view_image9"
+            android:layout_width="78dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="228.5dp"
+            android:layout_marginTop="238.5dp"
+            />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#666666"
+            android:layout_marginLeft="107dp"/>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#666666"
+            android:layout_marginLeft="214dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#666666"
+            android:layout_marginTop="107dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#666666"
+            android:layout_marginTop="214dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

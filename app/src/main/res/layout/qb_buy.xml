@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@mipmap/qb_buy_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <per.goweii.actionbarex.common.ActionBarCommon
+        android:id="@+id/abc"
+        android:background="@color/transparent"
+        style="@style/ActionBar.Common.Back"
+        app:abc_leftIconColor="@color/white"
+        app:abc_titleTextSize="16sp"
+        app:abc_titleTextColor="@color/white"
+        app:abc_titleText="解锁功能" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="15dp"
+        android:background="@mipmap/qb_buy_top_bg"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#451D09"
+            android:textSize="21sp"
+            android:text="专享特权"
+            android:textStyle="bold"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="21dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#673C26"
+            android:textSize="12sp"
+            android:text="实时位置和历史轨迹记录\n到达、离开某位置提醒"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/qb_buy_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/transparent">
+
+        <View
+            android:id="@+id/qb_buy_layout1_bg"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/corner_bg_yellow_2"/>
+
+        <TextView
+            android:id="@+id/qb_buy_layout1_top_red"
+            android:layout_width="55dp"
+            android:layout_height="17dp"
+            android:background="@mipmap/qb_buy_red_bg"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:textColor="@color/white"
+            android:text="买一送一"
+            />
+
+        <TextView
+            android:id="@+id/qb_buy_layout1_text_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#1A1A1A"
+            android:textSize="19sp"
+            android:text="￥68.00"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="18dp"/>
+
+        <TextView
+            android:id="@+id/qb_buy_layout1_text_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#1B1A1B"
+            android:textSize="12sp"
+            android:text="月会员-34元/月"
+            android:layout_marginLeft="116dp"
+            android:layout_marginTop="23dp"/>
+
+        <ImageView
+            android:id="@+id/qb_buy_layout1_check_image"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="22dp"
+            android:layout_marginTop="21dp"
+            android:src="@mipmap/qb_buy_check_dot"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/qb_buy_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/transparent">
+
+        <View
+            android:id="@+id/qb_buy_layout2_bg"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:visibility="invisible"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/corner_bg_yellow_2"/>
+
+        <TextView
+            android:id="@+id/qb_buy_layout2_top_red"
+            android:layout_width="55dp"
+            android:layout_height="17dp"
+            android:visibility="invisible"
+            android:background="@mipmap/qb_buy_red_bg"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:textColor="@color/white"
+            android:text="买一送一"
+            />
+
+        <TextView
+            android:id="@+id/qb_buy_layout2_text_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            android:text="￥88.00"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="18dp"/>
+
+        <TextView
+            android:id="@+id/qb_buy_layout2_text_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:text="季度会员-29元/月"
+            android:layout_marginLeft="116dp"
+            android:layout_marginTop="23dp"/>
+
+        <ImageView
+            android:id="@+id/qb_buy_layout2_check_image"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:visibility="invisible"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="22dp"
+            android:layout_marginTop="21dp"
+            android:src="@mipmap/qb_buy_check_dot"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/qb_buy_layout3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/transparent">
+
+        <View
+            android:id="@+id/qb_buy_layout3_bg"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:visibility="invisible"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/corner_bg_yellow_2"/>
+
+        <TextView
+            android:id="@+id/qb_buy_layout3_top_red"
+            android:layout_width="55dp"
+            android:layout_height="17dp"
+            android:visibility="invisible"
+            android:background="@mipmap/qb_buy_red_bg"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:textColor="@color/white"
+            android:text="买一送一"
+            />
+
+        <TextView
+            android:id="@+id/qb_buy_layout3_text_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            android:text="￥128.00"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="18dp"/>
+
+        <TextView
+            android:id="@+id/qb_buy_layout3_text_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:text="半年会员-21元/月"
+            android:layout_marginLeft="116dp"
+            android:layout_marginTop="23dp"/>
+
+        <ImageView
+            android:id="@+id/qb_buy_layout3_check_image"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:visibility="invisible"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="22dp"
+            android:layout_marginTop="21dp"
+            android:src="@mipmap/qb_buy_check_dot"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/qb_buy_layout4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/transparent">
+
+        <View
+            android:id="@+id/qb_buy_layout4_bg"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:visibility="invisible"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/corner_bg_yellow_2"/>
+
+        <TextView
+            android:id="@+id/qb_buy_layout4_top_red"
+            android:layout_width="55dp"
+            android:layout_height="17dp"
+            android:visibility="invisible"
+            android:background="@mipmap/qb_buy_red_bg"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:textColor="@color/white"
+            android:text="买一送一"
+            />
+
+        <TextView
+            android:id="@+id/qb_buy_layout4_text_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            android:text="￥208.00"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="18dp"/>
+
+        <TextView
+            android:id="@+id/qb_buy_layout4_text_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:text="年会员-17元/月"
+            android:layout_marginLeft="116dp"
+            android:layout_marginTop="23dp"/>
+
+        <ImageView
+            android:id="@+id/qb_buy_layout4_check_image"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:visibility="invisible"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="22dp"
+            android:layout_marginTop="21dp"
+            android:src="@mipmap/qb_buy_check_dot"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/transparent"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/qb_buy_button"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="@drawable/corner_bg_gradient_yellow_22"
+            android:text="立即解锁"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#6F402F"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/transparent"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/qb_buy_skip"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="@color/transparent"
+            android:text="跳过"
+            android:visibility="gone"
+            android:textSize="16sp"
+            android:textColor="#707070"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

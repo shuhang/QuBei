@@ -1,0 +1,2 @@
+# Referenced at /Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/app/build/intermediates/manifests/full/release/AndroidManifest.xml:27
+-keep class com.pku45a.difference.common.WanApp { <init>(...); }

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/light_gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <per.goweii.actionbarex.common.ActionBarCommon
+        android:id="@+id/abc"
+        android:background="@color/white"
+        style="@style/ActionBar.Common.Back"
+        app:abc_leftIconColor="@color/sm_blue"
+        app:abc_titleTextSize="18sp"
+        app:abc_titleTextColor="@color/black"
+        app:abc_titleText="设置" />
+
+    <RelativeLayout
+        android:id="@+id/sm_setting_clear_memory"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:singleLine="true"
+            android:text="清楚缓存"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/sm_setting_text_memory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:singleLine="true"
+            android:text="0M"
+            android:layout_centerVertical="true"
+            android:textColor="@color/middle_gray"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:singleLine="true"
+            android:text="关于我们"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/sm_my_info_text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:singleLine="true"
+            android:text="©时间节点"
+            android:layout_centerVertical="true"
+            android:textColor="@color/middle_gray"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/heavy_gray"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sm_setting_share"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:singleLine="true"
+            android:text="分享Star"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/sm_setting_logout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/corner_bg_red_25"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp"
+        android:stateListAnimator="@null"
+        android:text="退出登录"
+        android:textSize="16sp"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

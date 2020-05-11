@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="per.goweii.basic.ui.test" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="28" />
+
+    <instrumentation
+        android:name="android.support.test.runner.AndroidJUnitRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for per.goweii.basic.ui.test"
+        android:targetPackage="per.goweii.basic.ui.test" />
+
+    <application
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true" >
+        <uses-library android:name="android.test.runner" />
+
+        <activity
+            android:name="per.goweii.anylayer.LayerActivity"
+            android:theme="@style/LayerActivityTheme" />
+
+        <provider
+            android:name="per.goweii.anylayer.ActivityProvider"
+            android:authorities="per.goweii.basic.ui.test.activityprovider"
+            android:exported="false"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,113 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="per.goweii.basic.core.test" >
+4
+5    <uses-sdk
+5-->/Users/chunjiedi/Documents/Test/ShuHang_Android/basic_core/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger8555022492024712554.xml:5:5-74
+6        android:minSdkVersion="19"
+6-->/Users/chunjiedi/Documents/Test/ShuHang_Android/basic_core/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger8555022492024712554.xml:5:15-41
+7        android:targetSdkVersion="28" />
+7-->/Users/chunjiedi/Documents/Test/ShuHang_Android/basic_core/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger8555022492024712554.xml:5:42-71
+8
+9    <instrumentation
+9-->/Users/chunjiedi/Documents/Test/ShuHang_Android/basic_core/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger8555022492024712554.xml:11:5-15:76
+10        android:name="android.support.test.runner.AndroidJUnitRunner"
+10-->/Users/chunjiedi/Documents/Test/ShuHang_Android/basic_core/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger8555022492024712554.xml:11:22-83
+11        android:functionalTest="false"
+11-->/Users/chunjiedi/Documents/Test/ShuHang_Android/basic_core/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger8555022492024712554.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/Users/chunjiedi/Documents/Test/ShuHang_Android/basic_core/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger8555022492024712554.xml:13:22-53
+13        android:label="Tests for per.goweii.basic.core.test"
+13-->/Users/chunjiedi/Documents/Test/ShuHang_Android/basic_core/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger8555022492024712554.xml:15:22-74
+14        android:targetPackage="per.goweii.basic.core.test" />
+14-->/Users/chunjiedi/Documents/Test/ShuHang_Android/basic_core/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger8555022492024712554.xml:12:22-72
+15
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[__tested_artifact__::basic_core] /Users/chunjiedi/Documents/Test/ShuHang_Android/basic_core/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+16-->[__tested_artifact__::basic_core] /Users/chunjiedi/Documents/Test/ShuHang_Android/basic_core/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[__tested_artifact__::basic_core] /Users/chunjiedi/Documents/Test/ShuHang_Android/basic_core/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-79
+17-->[__tested_artifact__::basic_core] /Users/chunjiedi/Documents/Test/ShuHang_Android/basic_core/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-76
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->[__tested_artifact__::basic_core] /Users/chunjiedi/Documents/Test/ShuHang_Android/basic_core/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-76
+18-->[__tested_artifact__::basic_core] /Users/chunjiedi/Documents/Test/ShuHang_Android/basic_core/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-73
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->[__tested_artifact__::basic_core] /Users/chunjiedi/Documents/Test/ShuHang_Android/basic_core/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
+19-->[__tested_artifact__::basic_core] /Users/chunjiedi/Documents/Test/ShuHang_Android/basic_core/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:22-77
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->[__tested_artifact__::basic_core] /Users/chunjiedi/Documents/Test/ShuHang_Android/basic_core/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-81
+20-->[__tested_artifact__::basic_core] /Users/chunjiedi/Documents/Test/ShuHang_Android/basic_core/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-78
+21
+22    <application
+22-->/Users/chunjiedi/Documents/Test/ShuHang_Android/basic_core/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger8555022492024712554.xml:7:5-9:19
+23        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+23-->[com.android.support:support-compat:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/b9811fd9a283b676e8cdfdb4f8e0bf81/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+24        android:debuggable="true" >
+24-->/Users/chunjiedi/Documents/Test/ShuHang_Android/basic_core/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger8555022492024712554.xml:7:18-43
+25        <uses-library android:name="android.test.runner" />
+25-->/Users/chunjiedi/Documents/Test/ShuHang_Android/basic_core/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger8555022492024712554.xml:8:9-60
+25-->/Users/chunjiedi/Documents/Test/ShuHang_Android/basic_core/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger8555022492024712554.xml:8:23-57
+26
+27        <meta-data
+27-->[com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/185d45d43c72359ae20d8d92d18182bb/okhttp3-integration-4.8.0/AndroidManifest.xml:11:9-13:43
+28            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+28-->[com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/185d45d43c72359ae20d8d92d18182bb/okhttp3-integration-4.8.0/AndroidManifest.xml:12:13-84
+29            android:value="GlideModule" />
+29-->[com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/185d45d43c72359ae20d8d92d18182bb/okhttp3-integration-4.8.0/AndroidManifest.xml:13:13-40
+30
+31        <provider
+31-->[com.github.goweii:SwipeBack:1.0.7] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/11298c7c26c0fb7c9fd0394d3de92c4b/SwipeBack-1.0.7/AndroidManifest.xml:12:9-16:43
+32            android:name="per.goweii.swipeback.SwipeBackProvider"
+32-->[com.github.goweii:SwipeBack:1.0.7] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/11298c7c26c0fb7c9fd0394d3de92c4b/SwipeBack-1.0.7/AndroidManifest.xml:13:13-66
+33            android:authorities="per.goweii.basic.core.test.swipebackprovider"
+33-->[com.github.goweii:SwipeBack:1.0.7] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/11298c7c26c0fb7c9fd0394d3de92c4b/SwipeBack-1.0.7/AndroidManifest.xml:14:13-69
+34            android:exported="false"
+34-->[com.github.goweii:SwipeBack:1.0.7] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/11298c7c26c0fb7c9fd0394d3de92c4b/SwipeBack-1.0.7/AndroidManifest.xml:15:13-37
+35            android:multiprocess="true" />
+35-->[com.github.goweii:SwipeBack:1.0.7] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/11298c7c26c0fb7c9fd0394d3de92c4b/SwipeBack-1.0.7/AndroidManifest.xml:16:13-40
+36
+37        <activity
+37-->[com.github.goweii.AnyLayer:anylayer:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a2144893169261c8a880b960d114d4cc/anylayer-3.2.2/AndroidManifest.xml:12:9-14:57
+38            android:name="per.goweii.anylayer.LayerActivity"
+38-->[com.github.goweii.AnyLayer:anylayer:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a2144893169261c8a880b960d114d4cc/anylayer-3.2.2/AndroidManifest.xml:13:13-61
+39            android:theme="@style/LayerActivityTheme" />
+39-->[com.github.goweii.AnyLayer:anylayer:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a2144893169261c8a880b960d114d4cc/anylayer-3.2.2/AndroidManifest.xml:14:13-54
+40
+41        <provider
+41-->[com.github.goweii.AnyLayer:anylayer:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a2144893169261c8a880b960d114d4cc/anylayer-3.2.2/AndroidManifest.xml:16:9-20:43
+42            android:name="per.goweii.anylayer.ActivityProvider"
+42-->[com.github.goweii.AnyLayer:anylayer:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a2144893169261c8a880b960d114d4cc/anylayer-3.2.2/AndroidManifest.xml:17:13-64
+43            android:authorities="per.goweii.basic.core.test.activityprovider"
+43-->[com.github.goweii.AnyLayer:anylayer:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a2144893169261c8a880b960d114d4cc/anylayer-3.2.2/AndroidManifest.xml:18:13-68
+44            android:exported="false"
+44-->[com.github.goweii.AnyLayer:anylayer:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a2144893169261c8a880b960d114d4cc/anylayer-3.2.2/AndroidManifest.xml:19:13-37
+45            android:multiprocess="true" />
+45-->[com.github.goweii.AnyLayer:anylayer:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a2144893169261c8a880b960d114d4cc/anylayer-3.2.2/AndroidManifest.xml:20:13-40
+46
+47        <activity
+47-->[com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/b5cd69e2d5b33db67a32a1c7990ac8b6/support-2.0.1/AndroidManifest.xml:25:9-27:55
+48            android:name="com.yanzhenjie.permission.bridge.BridgeActivity"
+48-->[com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/b5cd69e2d5b33db67a32a1c7990ac8b6/support-2.0.1/AndroidManifest.xml:26:13-75
+49            android:theme="@style/Permission.Theme" />
+49-->[com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/b5cd69e2d5b33db67a32a1c7990ac8b6/support-2.0.1/AndroidManifest.xml:27:13-52
+50
+51        <provider
+51-->[com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/b5cd69e2d5b33db67a32a1c7990ac8b6/support-2.0.1/AndroidManifest.xml:29:9-37:20
+52            android:name="com.yanzhenjie.permission.FileProvider"
+52-->[com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/b5cd69e2d5b33db67a32a1c7990ac8b6/support-2.0.1/AndroidManifest.xml:30:13-66
+53            android:authorities="per.goweii.basic.core.test.file.path.share"
+53-->[com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/b5cd69e2d5b33db67a32a1c7990ac8b6/support-2.0.1/AndroidManifest.xml:31:13-67
+54            android:exported="false"
+54-->[com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/b5cd69e2d5b33db67a32a1c7990ac8b6/support-2.0.1/AndroidManifest.xml:32:13-37
+55            android:grantUriPermissions="true" >
+55-->[com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/b5cd69e2d5b33db67a32a1c7990ac8b6/support-2.0.1/AndroidManifest.xml:33:13-47
+56            <meta-data
+56-->[com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/b5cd69e2d5b33db67a32a1c7990ac8b6/support-2.0.1/AndroidManifest.xml:34:13-36:65
+57                android:name="android.support.FILE_PROVIDER_PATHS"
+57-->[com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/b5cd69e2d5b33db67a32a1c7990ac8b6/support-2.0.1/AndroidManifest.xml:35:17-67
+58                android:resource="@xml/permission_file_paths" />
+58-->[com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/b5cd69e2d5b33db67a32a1c7990ac8b6/support-2.0.1/AndroidManifest.xml:36:17-62
+59        </provider>
+60    </application>
+61
+62</manifest>

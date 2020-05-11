@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@mipmap/qb_login_bg"/>
+
+    <LinearLayout
+        android:background="@color/transparent"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:text="欢迎登录"
+            android:layout_marginLeft="76dp"
+            android:layout_marginTop="83dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:text="登录后会与用户绑定，并\n可在不同设备登录查看"
+            android:layout_marginLeft="76dp"
+            android:layout_marginTop="15dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="29dp"
+            android:layout_marginRight="29dp"
+            android:layout_marginTop="70dp">
+
+            <EditText
+                android:id="@+id/qb_login_input_phone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:layout_centerVertical="true"
+                android:textSize="16sp"
+                android:maxLength="11"
+                android:inputType="phone"
+                android:hint="输入手机号" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="#F4F4F4"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="29dp"
+            android:layout_marginRight="29dp"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/qb_login_input_code"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:layout_centerVertical="true"
+                android:textSize="16sp"
+                android:inputType="phone"
+                android:maxLength="6"
+                android:hint="输入验证码" />
+
+            <Button
+                android:id="@+id/qb_login_button_code"
+                android:layout_width="92dp"
+                android:layout_height="27dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/corner_bg_solid_blue_5"
+                android:text="发送验证码"
+                android:textSize="16sp"
+                android:textColor="#185CEE" />
+
+            <TextView
+                android:id="@+id/qb_login_text_time"
+                android:layout_width="92dp"
+                android:layout_height="27dp"
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:text="剩余60秒"
+                android:visibility="gone"
+                android:textSize="16sp"
+                android:textColor="#185CEE"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="#F4F4F4"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/qb_login_layout_agree"
+                android:layout_marginLeft="27dp"
+                android:layout_width="21dp"
+                android:layout_height="36dp">
+
+                <ImageView
+                    android:id="@+id/qb_login_image_agree"
+                    android:layout_width="13dp"
+                    android:layout_height="13dp"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/qb_check_blue"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/qb_login_text_agreement"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:includeFontPadding="true"
+                android:textColor="#BCBCBC"
+                android:textSize="12sp"
+                android:gravity="center_vertical"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/qb_login_image_agree"
+                android:text="我已阅读并同意用户协议和隐私政策" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="66dp">
+
+            <Button
+                android:id="@+id/qb_login_button_add"
+                android:layout_width="171dp"
+                android:layout_height="66dp"
+                android:background="@mipmap/qb_button_gray"
+                android:text="登陆"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <per.goweii.actionbarex.common.ActionBarCommon
+        android:id="@+id/qb_login_action_bar"
+        android:background="@color/transparent"
+        style="@style/ActionBar.Common.Back"
+        app:abc_leftIconColor="@color/white"
+        app:abc_titleTextSize="18sp"
+        app:abc_titleTextColor="@color/black"
+        app:abc_titleText="" />
+
+</RelativeLayout>

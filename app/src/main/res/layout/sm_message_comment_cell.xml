@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/sm_message_comment_cell_top_image_head"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/light_gray"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:riv_corner_radius="50dp"
+        app:riv_mutate_background="true" />
+
+    <TextView
+        android:id="@+id/sm_message_comment_cell_top_text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/sm_message_comment_cell_top_image_head"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:singleLine="true"
+        android:text="上面姓名"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/sm_message_comment_cell_top_text_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/sm_message_comment_cell_top_image_head"
+        android:layout_below="@+id/sm_message_comment_cell_top_text_name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:singleLine="true"
+        android:text="20-04-27"
+        android:textColor="#95a5a6"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/sm_message_comment_cell_top_text_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sm_message_comment_cell_top_image_head"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:singleLine="false"
+        android:text="回复了你的评论：顶顶顶顶"
+        android:textColor="#555555"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/sm_message_comment_cell_top_button_reply"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:background="@drawable/corner_bg_solid_blue_5"
+        android:layout_alignParentRight="true"
+        android:textSize="13sp"
+        android:textColor="@color/sm_blue"
+        android:text="回复"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/sm_message_comment_cell_center_layout"
+        android:layout_below="@+id/sm_message_comment_cell_top_text_info"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/light_gray">
+
+        <TextView
+            android:id="@+id/sm_message_comment_cell_center_text_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:singleLine="false"
+            android:text="回复了你的评论：顶顶顶顶"
+            android:textColor="@color/sm_blue"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/sm_message_comment_cell_bottom_image_head"
+        android:layout_below="@+id/sm_message_comment_cell_center_layout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/light_gray"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:riv_corner_radius="50dp"
+        app:riv_mutate_background="true" />
+
+    <TextView
+        android:id="@+id/sm_message_comment_cell_bottom_text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/sm_message_comment_cell_bottom_image_head"
+        android:layout_alignTop="@+id/sm_message_comment_cell_bottom_image_head"
+        android:layout_marginLeft="10dp"
+        android:singleLine="true"
+        android:text="上面姓名"
+        android:textColor="@color/sm_blue"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/sm_message_comment_cell_bottom_text_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/sm_message_comment_cell_bottom_image_head"
+        android:layout_below="@+id/sm_message_comment_cell_bottom_text_name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:text="20-04-27"
+        android:textColor="@color/black"
+        android:textSize="13sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/light_gray"
+        android:layout_below="@+id/sm_message_comment_cell_bottom_image_head"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

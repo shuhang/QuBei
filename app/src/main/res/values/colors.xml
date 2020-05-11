@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/main</color>
+    <color name="colorPrimaryDark">@color/transparent</color>
+    <color name="colorAccent">@color/main</color>
+
+    <color name="ic_launcher_background_start">@color/main</color>
+    <color name="ic_launcher_background_end">@color/main</color>
+
+    <color name="bottom_bar_overlay">@color/background_alpha</color>
+    <color name="mine_blur_overlay">@color/background_mask</color>
+    <color name="about_me_blur_overlay">@color/background_mask</color>
+    <color name="scrollbar">@color/text_surface</color>
+    <color name="light_gray">#F7F7F7</color>
+    <color name="middle_gray">#555555</color>
+    <color name="heavy_gray">#C6C6C8</color>
+    <color name="app_yellow">#FFD700</color>
+    <color name="app_text_color_black">#333333</color>
+    <color name="app_line_color_gray">#EBEBEB</color>
+
+    <color name="sm_blue">#5B99EE</color>
+    <color name="sm_light_blue">#7AA6F0</color>
+    <color name="sm_red">#EC554D</color>
+</resources>

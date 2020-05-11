@@ -1,0 +1,241 @@
+package com.pku45a.difference.module.home.presenter;
+
+import android.support.annotation.IntRange;
+
+import com.pku45a.difference.module.main.model.ArticleBean;
+import com.pku45a.difference.module.main.model.ArticleListBean;
+import com.pku45a.difference.module.main.model.ConfigBean;
+import com.pku45a.difference.module.main.model.MainRequest;
+
+import java.util.List;
+
+import per.goweii.basic.core.base.BasePresenter;
+import per.goweii.basic.utils.LogUtils;
+import per.goweii.rxhttp.request.base.BaseBean;
+import per.goweii.rxhttp.request.exception.ExceptionHandle;
+import com.pku45a.difference.event.CollectionEvent;
+import com.pku45a.difference.http.RequestListener;
+import com.pku45a.difference.module.home.model.BannerBean;
+import com.pku45a.difference.module.home.model.HomeRequest;
+import com.pku45a.difference.module.home.view.HomeView;
+import com.pku45a.difference.utils.ConfigUtils;
+import com.pku45a.difference.widget.CollectView;
+
+/**
+ * @author CuiZhen
+ * @date 2019/5/12
+ * QQ: 302833254
+ * E-mail: goweii@163.com
+ * GitHub: https://github.com/goweii
+ */
+public class HomePresenter extends BasePresenter<HomeView> {
+
+    private boolean isGetBannerSuccess = false;
+    private boolean isGetArticleListSuccess = false;
+    private boolean isGetTopArticleListSuccess = false;
+
+    private void isAllFailed() {
+        if (!isGetBannerSuccess && !isGetArticleListSuccess && !isGetTopArticleListSuccess) {
+            if (isAttach()) {
+                getBaseView().allFail();
+            }
+        }
+    }
+
+    public void getBanner() {
+        HomeRequest.getBanner(getRxLife(), new RequestListener<List<BannerBean>>() {
+            @Override
+            public void onStart() {
+            }
+
+            @Override
+            public void onSuccess(int code, List<BannerBean> data) {
+                isGetBannerSuccess = true;
+                if (isAttach()) {
+                    getBaseView().getBannerSuccess(code, data);
+                }
+            }
+
+            @Override
+            public void onFailed(int code, String msg) {
+                if (isAttach()) {
+                    getBaseView().getBannerFail(code, msg);
+                }
+            }
+
+            @Override
+            public void onError(ExceptionHandle handle) {
+            }
+
+            @Override
+            public void onFinish() {
+                isAllFailed();
+            }
+        });
+    }
+
+    public void getArticleList(@IntRange(from = 0) int page, boolean refresh) {
+        HomeRequest.getArticleList(getRxLife(), refresh, page, new RequestListener<ArticleListBean>() {
+            @Override
+            public void onStart() {
+            }
+
+            @Override
+            public void onSuccess(int code, ArticleListBean data) {
+                isGetArticleListSuccess = true;
+                if (isAttach()) {
+                    getBaseView().getArticleListSuccess(code, data);
+                }
+            }
+
+            @Override
+            public void onFailed(int code, String msg) {
+                if (isAttach()) {
+                    getBaseView().getArticleListFailed(code, msg);
+                }
+            }
+
+            @Override
+            public void onError(ExceptionHandle handle) {
+            }
+
+            @Override
+            public void onFinish() {
+                isAllFailed();
+            }
+        });
+    }
+
+    public void getTopArticleList(boolean refresh) {
+        HomeRequest.getTopArticleList(getRxLife(), refresh, new RequestListener<List<ArticleBean>>() {
+            @Override
+            public void onStart() {
+            }
+
+            @Override
+            public void onSuccess(int code, List<ArticleBean> data) {
+                isGetTopArticleListSuccess = true;
+                if (isAttach()) {
+                    getBaseView().getTopArticleListSuccess(code, data);
+                }
+            }
+
+            @Override
+            public void onFailed(int code, String msg) {
+                if (isAttach()) {
+                    getBaseView().getTopArticleListFailed(code, msg);
+                }
+            }
+
+            @Override
+            public void onError(ExceptionHandle handle) {
+            }
+
+            @Override
+            public void onFinish() {
+                isAllFailed();
+            }
+        });
+    }
+
+    public void collect(ArticleBean item, final CollectView v) {
+        addToRxLife(MainRequest.collect(item.getId(), new RequestListener<BaseBean>() {
+            @Override
+            public void onStart() {
+            }
+
+            @Override
+            public void onSuccess(int code, BaseBean data) {
+                item.setCollect(true);
+                if (!v.isChecked()) {
+                    v.toggle();
+                }
+                CollectionEvent.postCollectWithArticleId(item.getId());
+            }
+
+            @Override
+            public void onFailed(int code, String msg) {
+                if (v.isChecked()) {
+                    v.toggle();
+                }
+            }
+
+            @Override
+            public void onError(ExceptionHandle handle) {
+            }
+
+            @Override
+            public void onFinish() {
+            }
+        }));
+    }
+
+    public void uncollect(ArticleBean item, final CollectView v) {
+        addToRxLife(MainRequest.uncollect(item.getId(), new RequestListener<BaseBean>() {
+            @Override
+            public void onStart() {
+            }
+
+            @Override
+            public void onSuccess(int code, BaseBean data) {
+                item.setCollect(false);
+                if (v.isChecked()) {
+                    v.toggle();
+                }
+                CollectionEvent.postUnCollectWithArticleId(item.getId());
+            }
+
+            @Override
+            public void onFailed(int code, String msg) {
+                if (!v.isChecked()) {
+                    v.toggle();
+                }
+            }
+
+            @Override
+            public void onError(ExceptionHandle handle) {
+            }
+
+            @Override
+            public void onFinish() {
+            }
+        }));
+    }
+
+    public void getConfig() {
+        ConfigBean configBean = ConfigUtils.getInstance().getConfig();
+        LogUtils.i("ConfigBean", "getConfig" + configBean.toFormatJson());
+        getBaseView().getConfigSuccess(configBean);
+        LogUtils.i("ConfigBean", ConfigUtils.getInstance().isTodayUpdate());
+        if (ConfigUtils.getInstance().isTodayUpdate()) {
+            return;
+        }
+        MainRequest.getConfig(getRxLife(), new RequestListener<ConfigBean>() {
+            @Override
+            public void onStart() {
+            }
+
+            @Override
+            public void onSuccess(int code, ConfigBean data) {
+                LogUtils.i("ConfigBean", "onSuccess" + data.toFormatJson());
+                getBaseView().getConfigSuccess(data);
+                ConfigUtils.getInstance().setConfig(data);
+            }
+
+            @Override
+            public void onFailed(int code, String msg) {
+                LogUtils.i("ConfigBean", "onFailed");
+            }
+
+            @Override
+            public void onError(ExceptionHandle handle) {
+                LogUtils.i("ConfigBean", "onError" + handle.getException().toString());
+            }
+
+            @Override
+            public void onFinish() {
+            }
+        });
+    }
+
+}

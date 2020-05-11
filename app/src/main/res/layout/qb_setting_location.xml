@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <per.goweii.actionbarex.common.ActionBarCommon
+        android:id="@+id/abc"
+        android:background="@color/transparent"
+        style="@style/ActionBar.Common.Back"
+        app:abc_rightIconRes="@mipmap/qb_mine_setting"
+        app:abc_leftIconColor="#838383"
+        app:abc_titleTextSize="18sp"
+        app:abc_titleTextColor="@color/black"
+        app:abc_titleText="定位权限设置" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="#EEEEEE"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:text="为了保证更好的运行，建议您进行如下设置"
+        android:textColor="#999999"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="设置："
+        android:textColor="#333333"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="11dp"/>
+
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="270dp">
+
+        <View
+            android:id="@+id/qb_setting_location_temp"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:background="@color/transparent"
+            android:layout_centerInParent="true"/>
+
+        <ImageView
+            android:layout_width="129dp"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/qb_setting_location_temp"
+            android:layout_marginRight="14dp"
+            android:src="@mipmap/qb_location_bg_left" />
+
+        <ImageView
+            android:layout_width="129dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/qb_setting_location_temp"
+            android:layout_marginLeft="14dp"
+            android:src="@mipmap/qb_location_bg_right" />
+
+    </RelativeLayout>
+
+</LinearLayout>

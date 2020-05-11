@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/transparent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@mipmap/qb_guide_permission_bg"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="23sp"
+            android:textColor="#333333"
+            android:text="访问权限"
+            android:layout_marginTop="47dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#999999"
+            android:text="实时查看好友位置"
+            android:layout_marginTop="28dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#999999"
+            android:text="抵达离开动态通知"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#999999"
+            android:text="查看七天历史轨迹"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textColor="#185CEE"
+            android:text="季度会员29元/月"
+            android:layout_marginTop="54dp"/>
+
+        <Button
+            android:id="@+id/qb_guide_permission_continue"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/corner_bg_blue_22"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textSize="19sp"
+            android:textColor="@color/white"
+            android:text="继续" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp">
+
+            <Button
+                android:id="@+id/qb_guide_permission_agreement"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:text="同意用户者付费协议"
+                android:textSize="12sp"
+                android:textColor="#999999"/>
+
+            <RelativeLayout
+                android:id="@+id/qb_guide_permission_layout_agree"
+                android:layout_toLeftOf="@+id/qb_guide_permission_agreement"
+                android:layout_width="30dp"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:id="@+id/qb_guide_permission_image_agree"
+                    android:layout_width="13dp"
+                    android:layout_height="13dp"
+                    android:layout_centerInParent="true"
+                    android:src="@mipmap/qb_check_blue"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <per.goweii.actionbarex.common.ActionBarCommon
+        android:id="@+id/abc"
+        android:background="@color/transparent"
+        style="@style/ActionBar.Common.Back"
+        app:abc_leftIconColor="#838383"
+        app:abc_titleTextSize="18sp"
+        app:abc_titleTextColor="@color/black"
+        app:abc_titleText="" />
+
+</RelativeLayout>

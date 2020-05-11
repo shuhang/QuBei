@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/basic_res/src/main/assets"/><source path="/Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/basic_res/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/chunjiedi/Documents/Test/QB_GPS/ShuHang_Android/basic_res/src/debug/assets"/></dataSet></merger>

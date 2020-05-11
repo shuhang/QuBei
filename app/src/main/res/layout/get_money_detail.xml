@@ -1,0 +1,206 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <per.goweii.actionbarex.common.ActionBarCommon
+        android:id="@+id/abc"
+        style="@style/ActionBar.Common.Back"
+        app:abc_titleTextSize="18sp"
+        app:abc_titleText="提现" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#FFD700"
+            />
+
+        <View
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/circle_bg_70"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/layout_get_money_detail_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:includeFontPadding="true"
+        android:singleLine="true"
+        android:textColor="#CD5C5C"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="2.96" />
+
+    <Button
+        android:id="@+id/layout_get_money_detail_show_record"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:text="提现记录 >"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:stateListAnimator="@null"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/light_gray"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="true"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="提现金额" />
+
+    <Button
+        android:id="@+id/layout_get_money_detail_one_yuan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:textColor="#CD5C5C"
+        android:text="1 元"
+        android:background="@drawable/corner_bg_red_border"
+        android:layout_gravity="center"
+        android:stateListAnimator="@null"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="true"
+        android:singleLine="true"
+        android:textColor="#CD5C5C"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="新用户专享" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/layout_get_money_detail_20_yuan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:textSize="24sp"
+            android:textColor="#CD5C5C"
+            android:text="20 元"
+            android:background="@drawable/corner_bg_red_border"
+            android:layout_gravity="center"
+            android:stateListAnimator="@null"
+            />
+
+        <Button
+            android:id="@+id/layout_get_money_detail_50_yuan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:textSize="24sp"
+            android:textColor="#CD5C5C"
+            android:text="50 元"
+            android:background="@drawable/corner_bg_red_border"
+            android:layout_gravity="center"
+            android:stateListAnimator="@null"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/layout_get_money_detail_100_yuan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:textSize="24sp"
+            android:textColor="#CD5C5C"
+            android:text="100 元"
+            android:background="@drawable/corner_bg_red_border"
+            android:layout_gravity="center"
+            android:stateListAnimator="@null"
+            />
+
+        <Button
+            android:id="@+id/layout_get_money_detail_200_yuan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:textSize="24sp"
+            android:textColor="#CD5C5C"
+            android:text="200 元"
+            android:background="@drawable/corner_bg_red_border"
+            android:layout_gravity="center"
+            android:stateListAnimator="@null"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/layout_get_money_detail_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:text="提现"
+        android:background="@drawable/corner_bg_yellow_8"
+        android:gravity="center"
+        android:stateListAnimator="@null"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="true"
+        android:singleLine="true"
+        android:textColor="@color/second"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="提现说明（新用户专享1元提现需刮卡99张解锁）" />
+
+</LinearLayout>

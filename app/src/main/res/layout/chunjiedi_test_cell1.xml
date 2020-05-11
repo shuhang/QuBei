@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chunjiedi_cell"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_press_color_surface"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/ll_middle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/chunjiedi_cell_image"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/background"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            app:riv_corner_radius="@dimen/round_radius_small"
+            app:riv_mutate_background="true"
+            tools:src="@drawable/image_holder"
+            tools:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/chunjiedi_cell_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="0dp"
+                android:maxLines="3"
+                android:singleLine="false"
+                android:textColor="@color/text_surface"
+                android:textSize="@dimen/text_content"
+                tools:singleLine="true"
+                android:text="公众号文章列表强势上线公众号文章列表强势公众号文章列表强势上线公众号文章列表强势" />
+
+            <TextView
+                android:id="@+id/chunjiedi_cell_info"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="0dp"
+                android:maxLines="3"
+                android:textColor="@color/text_second"
+                android:textSize="@dimen/text_auxiliary"
+                android:text="公众号文章列表强势上线" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

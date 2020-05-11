@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#4C000000">
+
+    <RelativeLayout
+        android:layout_width="310dp"
+        android:layout_height="270dp"
+        android:layout_centerInParent="true"
+        >
+
+        <ImageView
+            android:layout_width="310dp"
+            android:layout_height="270dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="true"
+            android:singleLine="true"
+            android:textColor="@color/app_text_color_black"
+            android:textSize="17sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:text="连续 1 天登陆" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="true"
+            android:singleLine="true"
+            android:textColor="@color/app_text_color_black"
+            android:textSize="13sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            android:text="坚持每天登陆，可连续领取最高奖励哦～" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="150dp">
+
+            <View
+                android:id="@+id/sign_pop_view_temp"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerInParent="true"/>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_toLeftOf="@+id/sign_pop_view_temp"
+                android:layout_marginRight="16dp"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="true"
+                android:singleLine="true"
+                android:textColor="#FF4B4C"
+                android:textSize="30sp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/sign_pop_view_temp"
+                android:text="200" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/sign_pop_view_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/corner_bg_yellow_12"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginTop="210dp"
+            android:text="点击领取"
+            android:textSize="16sp"
+            android:textColor="@color/app_text_color_black"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

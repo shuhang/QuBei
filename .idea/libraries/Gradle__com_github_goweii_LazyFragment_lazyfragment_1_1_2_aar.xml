@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.goweii.LazyFragment:lazyfragment:1.1.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1359473c27d05d5e7877d2e12ce5125e/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1359473c27d05d5e7877d2e12ce5125e/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.goweii.LazyFragment/lazyfragment/1.1.2/d90479a9ac563442c0c777934bdc993c82b595cf/lazyfragment-1.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

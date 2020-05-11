@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <View
+        android:id="@+id/qb_splash_temp"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/qb_splash_temp"
+        android:src="@mipmap/qb_splash"
+        android:layout_marginTop="-120dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#333333"
+        android:text="趣呗"
+        android:textSize="27sp"
+        android:layout_alignTop="@+id/qb_splash_temp"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#999999"
+        android:text="保护您和您的家人安全"
+        android:textSize="16sp"
+        android:layout_alignTop="@+id/qb_splash_temp"
+        android:layout_marginTop="56dp" />
+
+</RelativeLayout>

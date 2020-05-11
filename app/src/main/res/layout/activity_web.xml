@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/foreground"
+    android:orientation="vertical"
+    tools:context="com.pku45a.difference.module.main.activity.MainActivity">
+
+    <per.goweii.actionbarex.common.ActionBarSearch
+        android:id="@+id/abs"
+        style="@style/ActionBar"
+        app:abs_leftIconClickToFinish="true"
+        app:abs_leftIconColor="@color/basic_ui_action_bar_icon"
+        app:abs_leftIconPadding="13dp"
+        app:abs_leftIconRes="@drawable/ic_close"
+        app:abs_rightText="前往"
+        app:abs_rightTextColor="@color/basic_ui_action_bar_text"
+        app:abs_rightTextPaddingRight="16dp"
+        app:abs_titleBgRes="@drawable/action_search_bg"
+        app:abs_titleHintColor="@color/basic_ui_action_bar_text_alpha"
+        app:abs_titleHintText=""
+        app:abs_titleMarginVertical="6dp"
+        app:abs_titlePaddingHorizontal="15dp"
+        app:abs_titleTextColor="@color/basic_ui_action_bar_text"
+        app:abs_titleTextSize="@dimen/text_content" />
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:srlEnablePureScrollMode="true">
+
+        <com.pku45a.difference.widget.WebContainer
+            android:id="@+id/wc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_bar_height"
+        android:background="@color/bottom_bar_overlay"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="15.5dp"
+            android:src="@drawable/ic_back"
+            android:tint="@color/invert" />
+
+        <ImageView
+            android:id="@+id/iv_forward"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="15.5dp"
+            android:rotation="180"
+            android:src="@drawable/ic_back"
+            android:tint="@color/invert" />
+
+        <ImageView
+            android:id="@+id/iv_menu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="15.5dp"
+            android:src="@drawable/ic_menu"
+            android:tint="@color/invert" />
+
+        <ImageView
+            android:id="@+id/iv_refresh"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="15.5dp"
+            android:src="@drawable/ic_refresh"
+            android:tint="@color/invert" />
+
+        <ImageView
+            android:id="@+id/iv_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="15.5dp"
+            android:src="@drawable/ic_home"
+            android:tint="@color/invert" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.goweii:RxHttp:2.2.9@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0646ef92c17896d46a01b7525c316e00/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0646ef92c17896d46a01b7525c316e00/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.goweii/RxHttp/2.2.9/2f70e53e3dec774574c7af0f5ac6508855ac264d/RxHttp-2.2.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

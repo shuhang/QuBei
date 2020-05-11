@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="260dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:singleLine="true"
+        android:text="正在使用"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <RelativeLayout
+        android:id="@+id/sm_head_list_header_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/sm_head_list_header_layout_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/corner_bg_red_25"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            app:riv_corner_radius="80dp"
+            app:riv_mutate_background="true" />
+
+        <TextView
+            android:id="@+id/sm_head_list_header_layout_text"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:singleLine="true"
+            android:text="头像"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/corner_bg_light_blue_10"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:singleLine="true"
+        android:text="更多推荐"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+</LinearLayout>

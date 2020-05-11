@@ -1,0 +1,670 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.yuzhix.idiom"
+4    android:versionCode="28"
+5    android:versionName="1.2.5" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+11-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:6:5-83
+11-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:6:22-80
+12    <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" /> -->
+13    <uses-permission android:name="android.permission.READ_LOGS" />
+13-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:8:5-10:47
+13-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:9:9-52
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:11:5-66
+14-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:11:22-64
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:12:5-74
+15-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:12:22-72
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:13:5-75
+16-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:13:22-73
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:14:5-78
+17-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:14:22-76
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:15:5-81
+18-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:15:22-78
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:16:5-81
+19-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:16:22-78
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20-->[:basic_core] /Users/chunjiedi/Documents/Test/ShuHang_Android/basic_core/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
+20-->[:basic_core] /Users/chunjiedi/Documents/Test/ShuHang_Android/basic_core/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:22-77
+21
+22    <application
+22-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:18:5-282:19
+23        android:name="com.yuzhix.idiom.common.WanApp"
+23-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:19:9-54
+24        android:allowBackup="false"
+24-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:20:9-36
+25        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+25-->[com.android.support:support-compat:28.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/b9811fd9a283b676e8cdfdb4f8e0bf81/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:21:9-43
+28        android:label="趣呗定位"
+28-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:22:9-29
+29        android:networkSecurityConfig="@xml/network_security_config"
+29-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:23:9-69
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:24:9-54
+31        android:supportsRtl="true"
+31-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:25:9-35
+32        android:theme="@style/AppTheme.Normal" >
+32-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:26:9-47
+33        <meta-data
+33-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:30:9-90
+34            android:name="JPUSH_APPKEY"
+34-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:30:20-47
+35            android:value="65c9d5075803b5d3f32a2234" />
+35-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:30:48-88
+36        <meta-data
+36-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:32:9-34:63
+37            android:name="com.amap.api.v2.apikey"
+37-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:33:13-50
+38            android:value="11443e6013e2c027b7eaea41f56f8a0d" />
+38-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:34:13-61
+39        <!-- module.main -->
+40        <!-- <activity -->
+41        <!-- android:name=".module.main.activity.SplashActivity" -->
+42        <!-- android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" -->
+43        <!-- android:theme="@style/AppTheme.Splash" /> -->
+44        <!-- <activity -->
+45        <!-- android:name=".module.main.activity.RouterActivity" -->
+46        <!-- android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" -->
+47        <!-- android:launchMode="singleTask" -->
+48        <!-- android:theme="@style/AppTheme.Router"> -->
+49        <!-- <intent-filter> -->
+50        <!-- <action android:name="android.intent.action.VIEW" /> -->
+51
+52
+53        <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+54        <!-- <category android:name="android.intent.category.BROWSABLE" /> -->
+55
+56
+57        <!-- <data android:scheme="https" /> -->
+58        <!-- </intent-filter> -->
+59        <!-- <intent-filter> -->
+60        <!-- <action android:name="android.intent.action.SEND" /> -->
+61        <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+62        <!-- <data android:mimeType="text/plain" /> -->
+63        <!-- </intent-filter> -->
+64        <!-- </activity> -->
+65        <activity
+65-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:59:9-63:20
+66            android:name="com.yuzhix.idiom.module.main.activity.MainActivity"
+66-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:60:13-78
+67            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode"
+67-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:61:13-108
+68            android:theme="@style/AppTheme.Main" >
+68-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:62:13-49
+69        </activity>
+70        <activity
+70-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:64:9-67:49
+71            android:name="com.yuzhix.idiom.module.main.activity.CrashActivity"
+71-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:65:13-79
+72            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode"
+72-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:66:13-108
+73            android:process=":error_activity" />
+73-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:67:13-46
+74        <activity
+74-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:68:9-70:111
+75            android:name="com.yuzhix.idiom.module.main.activity.WebActivity"
+75-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:69:13-77
+76            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+76-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:70:13-108
+77        <activity
+77-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:71:9-73:111
+78            android:name="com.yuzhix.idiom.module.main.activity.ShareArticleActivity"
+78-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:72:13-86
+79            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+79-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:73:13-108
+80
+81        <!-- module.home -->
+82        <activity
+82-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:76:9-78:111
+83            android:name="com.yuzhix.idiom.module.home.activity.SearchActivity"
+83-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:77:13-80
+84            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+84-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:78:13-108
+85        <activity
+85-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:79:9-81:111
+86            android:name="com.yuzhix.idiom.module.home.activity.UserArticleActivity"
+86-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:80:13-85
+87            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+87-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:81:13-108
+88        <activity
+88-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:82:9-85:47
+89            android:name="com.yuzhix.idiom.module.home.activity.UserPageActivity"
+89-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:83:13-82
+90            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode"
+90-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:84:13-108
+91            android:launchMode="singleTask" />
+91-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:85:13-44
+92
+93        <!-- module.knowledge -->
+94        <activity
+94-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:88:9-90:111
+95            android:name="com.yuzhix.idiom.module.knowledge.activity.KnowledgeArticleActivity"
+95-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:89:13-95
+96            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+96-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:90:13-108
+97
+98        <!-- module.login -->
+99        <activity
+99-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:93:9-96:53
+100            android:name="com.yuzhix.idiom.module.login.activity.LoginActivity"
+100-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:94:13-80
+101            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode"
+101-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:95:13-108
+102            android:theme="@style/AppTheme.Login" />
+102-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:96:13-50
+103
+104        <!-- module.mine -->
+105        <activity
+105-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:99:9-101:111
+106            android:name="com.yuzhix.idiom.module.mine.activity.CollectionActivity"
+106-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:100:13-84
+107            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+107-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:101:13-108
+108        <activity
+108-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:102:9-104:111
+109            android:name="com.yuzhix.idiom.module.mine.activity.ReadLaterActivity"
+109-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:103:13-83
+110            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+110-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:104:13-108
+111        <activity
+111-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:105:9-107:111
+112            android:name="com.yuzhix.idiom.module.mine.activity.OpenActivity"
+112-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:106:13-78
+113            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+113-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:107:13-108
+114        <activity
+114-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:108:9-110:111
+115            android:name="com.yuzhix.idiom.module.mine.activity.AboutMeActivity"
+115-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:109:13-81
+116            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+116-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:110:13-108
+117        <activity
+117-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:111:9-113:111
+118            android:name="com.yuzhix.idiom.module.mine.activity.SettingActivity"
+118-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:112:13-81
+119            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+119-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:113:13-108
+120        <activity
+120-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:114:9-116:111
+121            android:name="com.yuzhix.idiom.module.mine.activity.AboutActivity"
+121-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:115:13-79
+122            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+122-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:116:13-108
+123        <activity
+123-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:117:9-119:111
+124            android:name="com.yuzhix.idiom.module.mine.activity.CoinActivity"
+124-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:118:13-78
+125            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+125-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:119:13-108
+126        <activity
+126-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:120:9-122:111
+127            android:name="com.yuzhix.idiom.module.mine.activity.CoinRankActivity"
+127-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:121:13-82
+128            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+128-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:122:13-108
+129        <activity
+129-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:123:9-125:111
+130            android:name="com.yuzhix.idiom.module.mine.activity.MineShareActivity"
+130-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:124:13-83
+131            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+131-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:125:13-108
+132        <activity
+132-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:126:9-128:111
+133            android:name="com.yuzhix.idiom.module.mine.activity.HostInterruptActivity"
+133-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:127:13-87
+134            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+134-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:128:13-108
+135        <activity
+135-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:129:9-131:111
+136            android:name="com.yuzhix.idiom.module.mine.activity.Chunjie1Activity"
+136-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:130:13-82
+137            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+137-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:131:13-108
+138        <activity
+138-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:132:9-134:111
+139            android:name="com.yuzhix.idiom.module.ShuHang.Tab2.Activity.MoreSettingActivity"
+139-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:133:13-93
+140            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+140-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:134:13-108
+141        <activity
+141-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:135:9-137:111
+142            android:name="com.yuzhix.idiom.module.ShuHang.Tab2.Activity.FeedbackActivity"
+142-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:136:13-90
+143            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+143-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:137:13-108
+144        <activity
+144-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:138:9-140:111
+145            android:name="com.yuzhix.idiom.module.ShuHang.Tab2.Activity.NewAddressActivity"
+145-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:139:13-92
+146            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+146-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:140:13-108
+147        <activity
+147-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:141:9-143:111
+148            android:name="com.yuzhix.idiom.module.ShuHang.Tab2.Activity.ConfirmOrderActivity"
+148-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:142:13-94
+149            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+149-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:143:13-108
+150        <activity
+150-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:144:9-146:111
+151            android:name="com.yuzhix.idiom.module.ShuHang.Tab2.Activity.ReplaceBillActivity"
+151-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:145:13-93
+152            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+152-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:146:13-108
+153        <activity
+153-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:148:9-155:20
+154            android:name="com.yuzhix.idiom.module.StarMap.SMStartActivity"
+154-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:149:13-75
+155            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+155-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:150:13-108
+156            <intent-filter>
+156-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:151:13-154:29
+157                <action android:name="android.intent.action.MAIN" />
+157-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:152:17-69
+157-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:152:25-66
+158
+159                <category android:name="android.intent.category.LAUNCHER" />
+159-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:153:17-77
+159-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:153:27-74
+160            </intent-filter>
+161        </activity>
+162        <activity
+162-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:156:9-160:20
+163            android:name="com.yuzhix.idiom.module.StarMap.WelcomeActivity"
+163-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:157:13-75
+164            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode"
+164-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:158:13-108
+165            android:theme="@style/AppTheme.Main" >
+165-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:159:13-49
+166        </activity>
+167        <activity
+167-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:161:9-164:20
+168            android:name="com.yuzhix.idiom.module.StarMap.SMLoginActivity"
+168-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:162:13-75
+169            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+169-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:163:13-108
+170        </activity>
+171        <activity
+171-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:165:9-168:20
+172            android:name="com.yuzhix.idiom.module.StarMap.SMCreateAccountActivity"
+172-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:166:13-83
+173            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+173-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:167:13-108
+174        </activity>
+175        <activity
+175-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:169:9-172:20
+176            android:name="com.yuzhix.idiom.module.StarMap.SMSetPasswordActivity"
+176-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:170:13-81
+177            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+177-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:171:13-108
+178        </activity>
+179        <activity
+179-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:173:9-176:20
+180            android:name="com.yuzhix.idiom.module.StarMap.SMCheckPhoneActivity"
+180-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:174:13-80
+181            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+181-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:175:13-108
+182        </activity>
+183        <activity
+183-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:177:9-180:20
+184            android:name="com.yuzhix.idiom.module.StarMap.SMForgetPasswordActivity"
+184-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:178:13-84
+185            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+185-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:179:13-108
+186        </activity>
+187        <activity
+187-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:181:9-184:20
+188            android:name="com.yuzhix.idiom.module.StarMap.SMWebActivity"
+188-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:182:13-73
+189            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+189-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:183:13-108
+190        </activity>
+191        <activity
+191-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:185:9-188:20
+192            android:name="com.yuzhix.idiom.module.StarMap.SMMyInfoActivity"
+192-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:186:13-76
+193            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+193-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:187:13-108
+194        </activity>
+195        <activity
+195-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:189:9-192:20
+196            android:name="com.yuzhix.idiom.module.StarMap.SMSettingActivity"
+196-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:190:13-77
+197            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+197-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:191:13-108
+198        </activity>
+199        <activity
+199-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:193:9-196:20
+200            android:name="com.yuzhix.idiom.module.StarMap.SMSetTagActivity"
+200-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:194:13-76
+201            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+201-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:195:13-108
+202        </activity>
+203        <activity
+203-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:197:9-200:20
+204            android:name="com.yuzhix.idiom.module.StarMap.SMHeadListActivity"
+204-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:198:13-78
+205            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+205-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:199:13-108
+206        </activity>
+207        <activity
+207-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:201:9-204:20
+208            android:name="com.yuzhix.idiom.module.StarMap.SMMessageSystemListActivity"
+208-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:202:13-87
+209            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+209-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:203:13-108
+210        </activity>
+211        <activity
+211-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:205:9-208:20
+212            android:name="com.yuzhix.idiom.module.StarMap.SMMessageActivityListActivity"
+212-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:206:13-89
+213            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+213-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:207:13-108
+214        </activity>
+215        <activity
+215-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:209:9-212:20
+216            android:name="com.yuzhix.idiom.module.StarMap.SMMessageCommentListActivity"
+216-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:210:13-88
+217            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+217-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:211:13-108
+218        </activity>
+219        <activity
+219-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:213:9-216:20
+220            android:name="com.yuzhix.idiom.module.StarMap.SMMessageLikeListActivity"
+220-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:214:13-85
+221            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+221-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:215:13-108
+222        </activity>
+223        <activity
+223-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:217:9-220:20
+224            android:name="com.yuzhix.idiom.module.StarMap.SMUserInfoActivity"
+224-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:218:13-78
+225            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+225-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:219:13-108
+226        </activity>
+227        <activity
+227-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:221:9-224:20
+228            android:name="com.yuzhix.idiom.module.StarMap.SMFocusUserListActivity"
+228-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:222:13-83
+229            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+229-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:223:13-108
+230        </activity>
+231        <activity
+231-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:225:9-235:20
+232            android:name="com.yuzhix.idiom.wxapi.WXPayEntryActivity"
+232-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:226:13-69
+233            android:exported="true"
+233-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:227:13-36
+234            android:launchMode="singleTop" >
+234-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:228:13-43
+235            <intent-filter>
+235-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:229:13-233:29
+236                <action android:name="android.intent.action.VIEW" />
+236-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:230:17-68
+236-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:230:25-66
+237
+238                <category android:name="android.intent.category.DEFAULT" />
+238-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:231:17-75
+238-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:231:27-73
+239
+240                <data android:scheme="wx2ed6d6d9c21ee99c" />
+240-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:232:17-60
+240-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:232:23-58
+241            </intent-filter>
+242        </activity>
+243        <activity
+243-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:236:9-239:20
+244            android:name="com.yuzhix.idiom.module.QB.QBAddFriendActivity"
+244-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:237:13-74
+245            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+245-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:238:13-108
+246        </activity>
+247        <activity
+247-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:240:9-243:20
+248            android:name="com.yuzhix.idiom.module.QB.QBGuidePermissionActivity"
+248-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:241:13-80
+249            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+249-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:242:13-108
+250        </activity>
+251        <activity
+251-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:244:9-247:20
+252            android:name="com.yuzhix.idiom.module.QB.QBBuyActivity"
+252-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:245:13-68
+253            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+253-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:246:13-108
+254        </activity>
+255        <activity
+255-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:248:9-251:20
+256            android:name="com.yuzhix.idiom.module.QB.QBLoginActivity"
+256-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:249:13-70
+257            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+257-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:250:13-108
+258        </activity>
+259        <activity
+259-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:252:9-255:20
+260            android:name="com.yuzhix.idiom.module.QB.QBMainActivity"
+260-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:253:13-69
+261            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+261-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:254:13-108
+262        </activity>
+263        <activity
+263-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:256:9-259:20
+264            android:name="com.yuzhix.idiom.module.QB.QBMineActivity"
+264-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:257:13-69
+265            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+265-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:258:13-108
+266        </activity>
+267        <activity
+267-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:260:9-263:20
+268            android:name="com.yuzhix.idiom.module.QB.QBSettingLocationActivity"
+268-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:261:13-80
+269            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+269-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:262:13-108
+270        </activity>
+271        <activity
+271-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:264:9-267:20
+272            android:name="com.yuzhix.idiom.module.QB.QBSettingActivity"
+272-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:265:13-72
+273            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+273-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:266:13-108
+274        </activity>
+275        <activity
+275-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:268:9-271:20
+276            android:name="com.yuzhix.idiom.module.QB.QBServiceActivity"
+276-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:269:13-72
+277            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+277-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:270:13-108
+278        </activity>
+279
+280        <provider
+281            android:name="android.support.v4.content.FileProvider"
+281-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:273:13-67
+282            android:authorities="com.yuzhix.idiom.fileprovider"
+282-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:274:13-64
+283            android:exported="false"
+283-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:275:13-37
+284            android:grantUriPermissions="true" >
+284-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:276:13-47
+285            <meta-data
+285-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:277:13-279:53
+286                android:name="android.support.FILE_PROVIDER_PATHS"
+286-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:278:17-67
+287                android:resource="@xml/file_path" />
+287-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:279:17-50
+288        </provider>
+289
+290        <activity
+290-->[cat.ereza:customactivityoncrash:2.2.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/36cefe7e781b0e6684002498e111538c/customactivityoncrash-2.2.0/AndroidManifest.xml:12:9-14:49
+291            android:name="cat.ereza.customactivityoncrash.activity.DefaultErrorActivity"
+291-->[cat.ereza:customactivityoncrash:2.2.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/36cefe7e781b0e6684002498e111538c/customactivityoncrash-2.2.0/AndroidManifest.xml:13:13-89
+292            android:process=":error_activity" />
+292-->[cat.ereza:customactivityoncrash:2.2.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/36cefe7e781b0e6684002498e111538c/customactivityoncrash-2.2.0/AndroidManifest.xml:14:13-46
+293
+294        <provider
+294-->[cat.ereza:customactivityoncrash:2.2.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/36cefe7e781b0e6684002498e111538c/customactivityoncrash-2.2.0/AndroidManifest.xml:16:9-20:39
+295            android:name="cat.ereza.customactivityoncrash.provider.CaocInitProvider"
+295-->[cat.ereza:customactivityoncrash:2.2.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/36cefe7e781b0e6684002498e111538c/customactivityoncrash-2.2.0/AndroidManifest.xml:17:13-85
+296            android:authorities="com.yuzhix.idiom.customactivityoncrashinitprovider"
+296-->[cat.ereza:customactivityoncrash:2.2.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/36cefe7e781b0e6684002498e111538c/customactivityoncrash-2.2.0/AndroidManifest.xml:18:13-85
+297            android:exported="false"
+297-->[cat.ereza:customactivityoncrash:2.2.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/36cefe7e781b0e6684002498e111538c/customactivityoncrash-2.2.0/AndroidManifest.xml:19:13-37
+298            android:initOrder="101" />
+298-->[cat.ereza:customactivityoncrash:2.2.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/36cefe7e781b0e6684002498e111538c/customactivityoncrash-2.2.0/AndroidManifest.xml:20:13-36
+299        <provider
+299-->[com.github.goweii:SwipeBack:1.0.7] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/11298c7c26c0fb7c9fd0394d3de92c4b/SwipeBack-1.0.7/AndroidManifest.xml:12:9-16:43
+300            android:name="per.goweii.swipeback.SwipeBackProvider"
+300-->[com.github.goweii:SwipeBack:1.0.7] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/11298c7c26c0fb7c9fd0394d3de92c4b/SwipeBack-1.0.7/AndroidManifest.xml:13:13-66
+301            android:authorities="com.yuzhix.idiom.swipebackprovider"
+301-->[com.github.goweii:SwipeBack:1.0.7] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/11298c7c26c0fb7c9fd0394d3de92c4b/SwipeBack-1.0.7/AndroidManifest.xml:14:13-69
+302            android:exported="false"
+302-->[com.github.goweii:SwipeBack:1.0.7] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/11298c7c26c0fb7c9fd0394d3de92c4b/SwipeBack-1.0.7/AndroidManifest.xml:15:13-37
+303            android:multiprocess="true" />
+303-->[com.github.goweii:SwipeBack:1.0.7] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/11298c7c26c0fb7c9fd0394d3de92c4b/SwipeBack-1.0.7/AndroidManifest.xml:16:13-40
+304        <provider
+304-->[com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d3dd84a984e6b27c5ca0c4629d6058e4/picture_library-v2.3.1/AndroidManifest.xml:12:9-20:20
+305            android:name="com.luck.picture.lib.PictureFileProvider"
+305-->[com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d3dd84a984e6b27c5ca0c4629d6058e4/picture_library-v2.3.1/AndroidManifest.xml:13:13-68
+306            android:authorities="com.yuzhix.idiom.provider"
+306-->[com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d3dd84a984e6b27c5ca0c4629d6058e4/picture_library-v2.3.1/AndroidManifest.xml:14:13-60
+307            android:exported="false"
+307-->[com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d3dd84a984e6b27c5ca0c4629d6058e4/picture_library-v2.3.1/AndroidManifest.xml:15:13-37
+308            android:grantUriPermissions="true" >
+308-->[com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d3dd84a984e6b27c5ca0c4629d6058e4/picture_library-v2.3.1/AndroidManifest.xml:16:13-47
+309            <meta-data
+309-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:277:13-279:53
+310                android:name="android.support.FILE_PROVIDER_PATHS"
+310-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:278:17-67
+311                android:resource="@xml/file_paths" />
+311-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:279:17-50
+312        </provider>
+313
+314        <activity
+314-->[com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d3dd84a984e6b27c5ca0c4629d6058e4/picture_library-v2.3.1/AndroidManifest.xml:22:9-24:55
+315            android:name="com.luck.picture.lib.PictureSelectorActivity"
+315-->[com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d3dd84a984e6b27c5ca0c4629d6058e4/picture_library-v2.3.1/AndroidManifest.xml:23:13-72
+316            android:windowSoftInputMode="adjustPan" />
+316-->[com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d3dd84a984e6b27c5ca0c4629d6058e4/picture_library-v2.3.1/AndroidManifest.xml:24:13-52
+317        <activity android:name="com.luck.picture.lib.PicturePreviewActivity" />
+317-->[com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d3dd84a984e6b27c5ca0c4629d6058e4/picture_library-v2.3.1/AndroidManifest.xml:25:9-80
+317-->[com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d3dd84a984e6b27c5ca0c4629d6058e4/picture_library-v2.3.1/AndroidManifest.xml:25:19-77
+318        <activity
+318-->[com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d3dd84a984e6b27c5ca0c4629d6058e4/picture_library-v2.3.1/AndroidManifest.xml:26:9-29:50
+319            android:name="com.luck.picture.lib.PictureVideoPlayActivity"
+319-->[com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d3dd84a984e6b27c5ca0c4629d6058e4/picture_library-v2.3.1/AndroidManifest.xml:27:13-73
+320            android:configChanges="orientation|keyboardHidden|screenSize"
+320-->[com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d3dd84a984e6b27c5ca0c4629d6058e4/picture_library-v2.3.1/AndroidManifest.xml:28:13-74
+321            android:screenOrientation="sensor" />
+321-->[com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d3dd84a984e6b27c5ca0c4629d6058e4/picture_library-v2.3.1/AndroidManifest.xml:29:13-47
+322        <activity android:name="com.luck.picture.lib.PictureExternalPreviewActivity" />
+322-->[com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d3dd84a984e6b27c5ca0c4629d6058e4/picture_library-v2.3.1/AndroidManifest.xml:30:9-88
+322-->[com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d3dd84a984e6b27c5ca0c4629d6058e4/picture_library-v2.3.1/AndroidManifest.xml:30:19-85
+323        <activity android:name="com.yalantis.ucrop.UCropActivity" />
+323-->[com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d3dd84a984e6b27c5ca0c4629d6058e4/picture_library-v2.3.1/AndroidManifest.xml:31:9-69
+323-->[com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d3dd84a984e6b27c5ca0c4629d6058e4/picture_library-v2.3.1/AndroidManifest.xml:31:19-66
+324        <activity android:name="com.yalantis.ucrop.PictureMultiCuttingActivity" />
+324-->[com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d3dd84a984e6b27c5ca0c4629d6058e4/picture_library-v2.3.1/AndroidManifest.xml:32:9-83
+324-->[com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d3dd84a984e6b27c5ca0c4629d6058e4/picture_library-v2.3.1/AndroidManifest.xml:32:19-80
+325        <activity android:name="com.luck.picture.lib.PicturePlayAudioActivity" />
+325-->[com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d3dd84a984e6b27c5ca0c4629d6058e4/picture_library-v2.3.1/AndroidManifest.xml:33:9-82
+325-->[com.github.goweii.PictureSelector:picture_library:v2.3.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d3dd84a984e6b27c5ca0c4629d6058e4/picture_library-v2.3.1/AndroidManifest.xml:33:19-79
+326
+327        <provider
+327-->[com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d2eb9cca860f461137e927abda2d38f0/agentweb-4.0.0/AndroidManifest.xml:15:9-23:20
+328            android:name="com.just.agentweb.AgentWebFileProvider"
+328-->[com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d2eb9cca860f461137e927abda2d38f0/agentweb-4.0.0/AndroidManifest.xml:16:13-66
+329            android:authorities="com.yuzhix.idiom.AgentWebFileProvider"
+329-->[com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d2eb9cca860f461137e927abda2d38f0/agentweb-4.0.0/AndroidManifest.xml:17:13-72
+330            android:exported="false"
+330-->[com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d2eb9cca860f461137e927abda2d38f0/agentweb-4.0.0/AndroidManifest.xml:18:13-37
+331            android:grantUriPermissions="true" >
+331-->[com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d2eb9cca860f461137e927abda2d38f0/agentweb-4.0.0/AndroidManifest.xml:19:13-47
+332            <meta-data
+332-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:277:13-279:53
+333                android:name="android.support.FILE_PROVIDER_PATHS"
+333-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:278:17-67
+334                android:resource="@xml/web_files_paths" />
+334-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:279:17-50
+335        </provider>
+336
+337        <activity
+337-->[com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d2eb9cca860f461137e927abda2d38f0/agentweb-4.0.0/AndroidManifest.xml:25:9-32:20
+338            android:name="com.just.agentweb.ActionActivity"
+338-->[com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d2eb9cca860f461137e927abda2d38f0/agentweb-4.0.0/AndroidManifest.xml:26:13-60
+339            android:configChanges="keyboardHidden|orientation|screenSize"
+339-->[com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d2eb9cca860f461137e927abda2d38f0/agentweb-4.0.0/AndroidManifest.xml:27:13-74
+340            android:exported="false"
+340-->[com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d2eb9cca860f461137e927abda2d38f0/agentweb-4.0.0/AndroidManifest.xml:28:13-37
+341            android:launchMode="standard"
+341-->[com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d2eb9cca860f461137e927abda2d38f0/agentweb-4.0.0/AndroidManifest.xml:29:13-42
+342            android:theme="@style/actionActivity"
+342-->[com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d2eb9cca860f461137e927abda2d38f0/agentweb-4.0.0/AndroidManifest.xml:30:13-50
+343            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+343-->[com.just.agentweb:agentweb:4.0.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/d2eb9cca860f461137e927abda2d38f0/agentweb-4.0.0/AndroidManifest.xml:31:13-72
+344        </activity>
+345
+346        <meta-data
+346-->[com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/185d45d43c72359ae20d8d92d18182bb/okhttp3-integration-4.8.0/AndroidManifest.xml:11:9-13:43
+347            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+347-->[com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/185d45d43c72359ae20d8d92d18182bb/okhttp3-integration-4.8.0/AndroidManifest.xml:12:13-84
+348            android:value="GlideModule" />
+348-->[com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/185d45d43c72359ae20d8d92d18182bb/okhttp3-integration-4.8.0/AndroidManifest.xml:13:13-40
+349
+350        <activity
+350-->[com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/b5cd69e2d5b33db67a32a1c7990ac8b6/support-2.0.1/AndroidManifest.xml:25:9-27:55
+351            android:name="com.yanzhenjie.permission.bridge.BridgeActivity"
+351-->[com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/b5cd69e2d5b33db67a32a1c7990ac8b6/support-2.0.1/AndroidManifest.xml:26:13-75
+352            android:theme="@style/Permission.Theme" />
+352-->[com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/b5cd69e2d5b33db67a32a1c7990ac8b6/support-2.0.1/AndroidManifest.xml:27:13-52
+353
+354        <provider
+354-->[com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/b5cd69e2d5b33db67a32a1c7990ac8b6/support-2.0.1/AndroidManifest.xml:29:9-37:20
+355            android:name="com.yanzhenjie.permission.FileProvider"
+355-->[com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/b5cd69e2d5b33db67a32a1c7990ac8b6/support-2.0.1/AndroidManifest.xml:30:13-66
+356            android:authorities="com.yuzhix.idiom.file.path.share"
+356-->[com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/b5cd69e2d5b33db67a32a1c7990ac8b6/support-2.0.1/AndroidManifest.xml:31:13-67
+357            android:exported="false"
+357-->[com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/b5cd69e2d5b33db67a32a1c7990ac8b6/support-2.0.1/AndroidManifest.xml:32:13-37
+358            android:grantUriPermissions="true" >
+358-->[com.yanzhenjie.permission:support:2.0.1] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/b5cd69e2d5b33db67a32a1c7990ac8b6/support-2.0.1/AndroidManifest.xml:33:13-47
+359            <meta-data
+359-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:277:13-279:53
+360                android:name="android.support.FILE_PROVIDER_PATHS"
+360-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:278:17-67
+361                android:resource="@xml/permission_file_paths" />
+361-->/Users/chunjiedi/Documents/Test/ShuHang_Android/app/src/main/AndroidManifest.xml:279:17-50
+362        </provider>
+363
+364        <activity
+364-->[com.github.goweii.AnyLayer:anylayer:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a2144893169261c8a880b960d114d4cc/anylayer-3.2.2/AndroidManifest.xml:12:9-14:57
+365            android:name="per.goweii.anylayer.LayerActivity"
+365-->[com.github.goweii.AnyLayer:anylayer:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a2144893169261c8a880b960d114d4cc/anylayer-3.2.2/AndroidManifest.xml:13:13-61
+366            android:theme="@style/LayerActivityTheme" />
+366-->[com.github.goweii.AnyLayer:anylayer:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a2144893169261c8a880b960d114d4cc/anylayer-3.2.2/AndroidManifest.xml:14:13-54
+367
+368        <provider
+368-->[com.github.goweii.AnyLayer:anylayer:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a2144893169261c8a880b960d114d4cc/anylayer-3.2.2/AndroidManifest.xml:16:9-20:43
+369            android:name="per.goweii.anylayer.ActivityProvider"
+369-->[com.github.goweii.AnyLayer:anylayer:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a2144893169261c8a880b960d114d4cc/anylayer-3.2.2/AndroidManifest.xml:17:13-64
+370            android:authorities="com.yuzhix.idiom.activityprovider"
+370-->[com.github.goweii.AnyLayer:anylayer:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a2144893169261c8a880b960d114d4cc/anylayer-3.2.2/AndroidManifest.xml:18:13-68
+371            android:exported="false"
+371-->[com.github.goweii.AnyLayer:anylayer:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a2144893169261c8a880b960d114d4cc/anylayer-3.2.2/AndroidManifest.xml:19:13-37
+372            android:multiprocess="true" />
+372-->[com.github.goweii.AnyLayer:anylayer:3.2.2] /Users/chunjiedi/.gradle/caches/transforms-2/files-2.1/a2144893169261c8a880b960d114d4cc/anylayer-3.2.2/AndroidManifest.xml:20:13-40
+373    </application>
+374
+375</manifest>

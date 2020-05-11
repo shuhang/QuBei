@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+    <per.goweii.actionbarex.common.ActionBarCommon
+        android:id="@+id/abc"
+        style="@style/ActionBar.Common.Back"
+        app:abc_titleTextSize="18sp"
+        app:abc_titleText="话费兑换" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/corner_bg_gray_12"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="32dp">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_phone"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"/>
+
+        <EditText
+            android:id="@+id/replace_bill_phone"
+            android:layout_width="match_parent"
+            android:layout_height="21dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="15dp"
+            android:background="#F8F8F8"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:hint="输入您的联系方式"
+            android:maxLines="1"
+            android:maxLength="11"
+            android:inputType="phone"
+            android:textColor="@color/app_text_color_black"
+            android:textColorHint="#999999"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/replace_bill_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/corner_bg_yellow_12"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="36dp"
+        android:stateListAnimator="@null"
+        android:text="立即兑换"
+        android:textSize="16sp"
+        android:textColor="@color/app_text_color_black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="true"
+        android:singleLine="true"
+        android:textColor="@color/app_text_color_black"
+        android:textSize="16sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="40dp"
+        android:text="注意事项" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="true"
+        android:singleLine="false"
+        android:lineSpacingMultiplier="1.5"
+        android:textColor="#999999"
+        android:textSize="14sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="16dp"
+        android:text="1.文案文案文案文案文案文案\n1.文案文案文案文案文案文案\n1.文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案" />
+
+</LinearLayout>

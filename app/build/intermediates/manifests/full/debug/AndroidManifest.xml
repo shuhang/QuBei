@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pku45a.difference"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" /> -->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- 声明后台定位权限 -->
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.pku45a.difference.common.WanApp"
+        android:allowBackup="false"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="趣呗定位"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.Normal" >
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="65c9d5075803b5d3f32a2234" />
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="a16be319c58dbcd0509cfc62f3bda9e3" />
+
+        <service android:name="com.amap.api.location.APSService" />
+
+        <activity
+            android:name="com.pku45a.difference.module.main.activity.MainActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode"
+            android:theme="@style/AppTheme.Main" >
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.module.main.activity.CrashActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode"
+            android:process=":error_activity" />
+        <activity
+            android:name="com.pku45a.difference.module.main.activity.WebActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.pku45a.difference.module.main.activity.ShareArticleActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+
+        <!-- module.home -->
+        <activity
+            android:name="com.pku45a.difference.module.home.activity.SearchActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.pku45a.difference.module.home.activity.UserArticleActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.pku45a.difference.module.home.activity.UserPageActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode"
+            android:launchMode="singleTask" />
+
+        <!-- module.knowledge -->
+        <activity
+            android:name="com.pku45a.difference.module.knowledge.activity.KnowledgeArticleActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+
+        <!-- module.login -->
+        <activity
+            android:name="com.pku45a.difference.module.login.activity.LoginActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode"
+            android:theme="@style/AppTheme.Login" />
+
+        <!-- module.mine -->
+        <activity
+            android:name="com.pku45a.difference.module.mine.activity.CollectionActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.pku45a.difference.module.mine.activity.ReadLaterActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.pku45a.difference.module.mine.activity.OpenActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.pku45a.difference.module.mine.activity.AboutMeActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.pku45a.difference.module.mine.activity.SettingActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.pku45a.difference.module.mine.activity.AboutActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.pku45a.difference.module.mine.activity.CoinActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.pku45a.difference.module.mine.activity.CoinRankActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.pku45a.difference.module.mine.activity.MineShareActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.pku45a.difference.module.mine.activity.HostInterruptActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.pku45a.difference.module.mine.activity.Chunjie1Activity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.pku45a.difference.module.ShuHang.Tab2.Activity.MoreSettingActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.pku45a.difference.module.ShuHang.Tab2.Activity.FeedbackActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.pku45a.difference.module.ShuHang.Tab2.Activity.NewAddressActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.pku45a.difference.module.ShuHang.Tab2.Activity.ConfirmOrderActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.pku45a.difference.module.ShuHang.Tab2.Activity.ReplaceBillActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" />
+        <activity
+            android:name="com.pku45a.difference.module.StarMap.SMStartActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.module.StarMap.WelcomeActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode"
+            android:theme="@style/AppTheme.Main" >
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.module.StarMap.SMLoginActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.module.StarMap.SMCreateAccountActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.module.StarMap.SMSetPasswordActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.module.StarMap.SMCheckPhoneActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.module.StarMap.SMForgetPasswordActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.module.StarMap.SMWebActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.module.StarMap.SMMyInfoActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.module.StarMap.SMSettingActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.module.StarMap.SMSetTagActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.module.StarMap.SMHeadListActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.module.StarMap.SMMessageSystemListActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.module.StarMap.SMMessageActivityListActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.module.StarMap.SMMessageCommentListActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.module.StarMap.SMMessageLikeListActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.module.StarMap.SMUserInfoActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.module.StarMap.SMFocusUserListActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="wx438cf4ef216ce00e" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.module.QB.QBAddFriendActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.module.QB.QBGuidePermissionActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.module.QB.QBBuyActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.module.QB.QBLoginActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.module.QB.QBMainActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.module.QB.QBMineActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.module.QB.QBSettingLocationActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.module.QB.QBSettingActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.module.QB.QBServiceActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.module.QB.QBLocalWebActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.module.QB.QBAddContactActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+        </activity>
+        <activity
+            android:name="com.pku45a.difference.module.QB.QBSplashActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|fontScale|density|orientation|uiMode" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.pku45a.difference.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_path" />
+        </provider>
+
+        <activity
+            android:name="cat.ereza.customactivityoncrash.activity.DefaultErrorActivity"
+            android:process=":error_activity" />
+
+        <provider
+            android:name="cat.ereza.customactivityoncrash.provider.CaocInitProvider"
+            android:authorities="com.pku45a.difference.customactivityoncrashinitprovider"
+            android:exported="false"
+            android:initOrder="101" />
+        <provider
+            android:name="per.goweii.swipeback.SwipeBackProvider"
+            android:authorities="com.pku45a.difference.swipebackprovider"
+            android:exported="false"
+            android:multiprocess="true" />
+        <provider
+            android:name="com.luck.picture.lib.PictureFileProvider"
+            android:authorities="com.pku45a.difference.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name="com.luck.picture.lib.PictureSelectorActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.luck.picture.lib.PicturePreviewActivity" />
+        <activity
+            android:name="com.luck.picture.lib.PictureVideoPlayActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="sensor" />
+        <activity android:name="com.luck.picture.lib.PictureExternalPreviewActivity" />
+        <activity android:name="com.yalantis.ucrop.UCropActivity" />
+        <activity android:name="com.yalantis.ucrop.PictureMultiCuttingActivity" />
+        <activity android:name="com.luck.picture.lib.PicturePlayAudioActivity" />
+
+        <provider
+            android:name="com.just.agentweb.AgentWebFileProvider"
+            android:authorities="com.pku45a.difference.AgentWebFileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/web_files_paths" />
+        </provider>
+
+        <activity
+            android:name="com.just.agentweb.ActionActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:launchMode="standard"
+            android:theme="@style/actionActivity"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+        </activity>
+
+        <meta-data
+            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+            android:value="GlideModule" />
+
+        <activity
+            android:name="com.yanzhenjie.permission.bridge.BridgeActivity"
+            android:theme="@style/Permission.Theme" />
+
+        <provider
+            android:name="com.yanzhenjie.permission.FileProvider"
+            android:authorities="com.pku45a.difference.file.path.share"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/permission_file_paths" />
+        </provider>
+
+        <activity
+            android:name="per.goweii.anylayer.LayerActivity"
+            android:theme="@style/LayerActivityTheme" />
+
+        <provider
+            android:name="per.goweii.anylayer.ActivityProvider"
+            android:authorities="com.pku45a.difference.activityprovider"
+            android:exported="false"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

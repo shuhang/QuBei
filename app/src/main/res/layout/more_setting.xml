@@ -1,0 +1,311 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <per.goweii.actionbarex.common.ActionBarCommon
+        android:id="@+id/abc"
+        style="@style/ActionBar.Common.Back"
+        app:abc_titleTextSize="18sp"
+        app:abc_titleText="更多设置" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="443.5dp"
+        android:background="@drawable/corner_bg_white_12"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:id="@+id/more_setting_rule"
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="true"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:text="规则说明" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_arrow_right_black"
+                />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="13.5dp"
+            android:layout_marginRight="13.5dp"
+            android:background="@color/app_line_color_gray"
+            />
+
+        <RelativeLayout
+            android:id="@+id/more_setting_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="true"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:text="使用反馈" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_arrow_right_black"
+                />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="13.5dp"
+            android:layout_marginRight="13.5dp"
+            android:background="@color/app_line_color_gray"
+            />
+
+        <RelativeLayout
+            android:id="@+id/more_setting_privacy"
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="true"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:text="用户协议" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_arrow_right_black"
+                />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="13.5dp"
+            android:layout_marginRight="13.5dp"
+            android:background="@color/app_line_color_gray"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="true"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:text="软件版本" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="true"
+                android:singleLine="true"
+                android:textColor="#999999"
+                android:textSize="17sp"
+                android:gravity="right"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:text="3.5.1" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="13.5dp"
+            android:layout_marginRight="13.5dp"
+            android:background="@color/app_line_color_gray"
+            />
+
+        <RelativeLayout
+            android:id="@+id/more_setting_update"
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="true"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:text="检测升级" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_refresh_gray"
+                />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="13.5dp"
+            android:layout_marginRight="13.5dp"
+            android:background="@color/app_line_color_gray"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="true"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:text="电子邮箱" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="true"
+                android:singleLine="true"
+                android:textColor="#999999"
+                android:textSize="17sp"
+                android:gravity="right"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:text="hksfhu@qq.com" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="13.5dp"
+            android:layout_marginRight="13.5dp"
+            android:background="@color/app_line_color_gray"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="true"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:text="客服时间" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="true"
+                android:singleLine="true"
+                android:textColor="#999999"
+                android:textSize="17sp"
+                android:gravity="right"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:text="工作日10:00-18:00" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="13.5dp"
+            android:layout_marginRight="13.5dp"
+            android:background="@color/app_line_color_gray"
+            />
+
+        <RelativeLayout
+            android:id="@+id/more_setting_online"
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="true"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:text="在线客服" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_arrow_right_black"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="70dp"
+            android:layout_width="match_parent"
+            android:layout_height="46dp">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/qb_mine_head"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="30dp"
+                android:src="@mipmap/qb_user0"
+                android:scaleType="centerCrop"
+                app:riv_corner_radius="46dp"
+                app:riv_mutate_background="true" />
+
+            <TextView
+                android:id="@+id/qb_mine_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#333333"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="13568921535"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/qb_mine_head"
+                android:layout_marginLeft="9dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/qb_mine_no_vip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="13dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/qb_mine_no_vip"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:text="功能未解锁"
+                android:layout_marginLeft="49dp"
+                android:layout_marginTop="12dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="#A09FA0"
+                android:text="解锁使用更多功能"
+                android:layout_marginLeft="49dp"
+                android:layout_marginTop="34dp"/>
+
+            <Button
+                android:id="@+id/qb_mine_unlock"
+                android:layout_width="69dp"
+                android:layout_height="28dp"
+                android:background="@drawable/corner_bg_gradient_yellow_14"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="30dp"
+                android:text="解锁"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/qb_mine_vip"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="13dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/qb_mine_vip"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="21sp"
+                android:textColor="@color/white"
+                android:text="已解锁"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="49dp"
+                />
+
+            <TextView
+                android:id="@+id/qb_mine_vip_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#592E00"
+                android:text="日期截至到2020-4-30"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="12dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/qb_mine_layout_service"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="11dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#2C2A2C"
+                android:text="客服"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="35dp"/>
+
+            <ImageView
+                android:layout_width="9dp"
+                android:layout_height="36dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="36dp"
+                android:src="@mipmap/qb_mine_arrow" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#EEEEEE"
+                android:layout_alignParentBottom="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/qb_mine_layout_share"
+            android:layout_width="match_parent"
+            android:layout_height="52dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#2C2A2C"
+                android:text="分享"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="35dp"/>
+
+            <ImageView
+                android:layout_width="9dp"
+                android:layout_height="36dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="36dp"
+                android:src="@mipmap/qb_mine_arrow" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#EEEEEE"
+                android:layout_alignParentBottom="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/qb_mine_layout_location"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="52dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#2C2A2C"
+                android:text="定位权限设置"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="35dp"/>
+
+            <ImageView
+                android:layout_width="9dp"
+                android:layout_height="36dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="36dp"
+                android:src="@mipmap/qb_mine_arrow" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#EEEEEE"
+                android:layout_alignParentBottom="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/qb_mine_layout_contact"
+            android:layout_width="match_parent"
+            android:layout_height="52dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#2C2A2C"
+                android:text="紧急联系人"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="35dp"/>
+
+            <ImageView
+                android:layout_width="9dp"
+                android:layout_height="36dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="36dp"
+                android:src="@mipmap/qb_mine_arrow" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#EEEEEE"
+                android:layout_alignParentBottom="true"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <per.goweii.actionbarex.common.ActionBarCommon
+        android:id="@+id/abc"
+        android:background="@color/transparent"
+        style="@style/ActionBar.Common.Back"
+        app:abc_leftIconColor="#838383"
+        app:abc_titleTextSize="18sp"
+        app:abc_titleTextColor="@color/black"
+        app:abc_titleText="我的" />
+
+    <Button
+        android:id="@+id/qb_mine_button_setting"
+        android:layout_width="22dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="37dp"
+        android:layout_marginRight="23dp"
+        android:background="@mipmap/qb_mine_setting"/>
+
+</RelativeLayout>

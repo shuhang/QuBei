@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/light_gray"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/sm_message_activity_cell_time"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:singleLine="true"
+        android:gravity="center"
+        android:text=""
+        android:layout_centerVertical="true"
+        android:textColor="#95a5a6"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:clipChildren="true"
+        android:orientation="vertical"
+        android:background="@drawable/corner_bg_white_6">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/sm_message_activity_cell_image"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            app:riv_corner_radius_top_left="6dp"
+            app:riv_corner_radius_top_right="6dp"
+            app:riv_mutate_background="true" />
+
+        <TextView
+            android:id="@+id/sm_message_activity_cell_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:singleLine="false"
+            android:text=""
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/sm_message_activity_cell_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:singleLine="false"
+            android:text=""
+            android:layout_centerVertical="true"
+            android:textColor="#aaaaaa"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+apply plugin: 'realm-android'
+
+apply from: "../module.gradle"
+
+android {
+    defaultConfig {
+        applicationId rootProject.ext.android.applicationId
+        renderscriptSupportModeEnabled true
+        ndk {
+            abiFilters /*'armeabi' ,*/'armeabi-v7a'/*, 'arm64-v8a'*/
+        }
+    }
+    signingConfigs {
+        qb {
+            keyAlias 'key0'
+            keyPassword 'hang4554'
+            storeFile file('qb_gps.jks')
+            storePassword 'hang4554'
+        }
+    }
+    buildTypes {
+        release {
+            applicationVariants.all { variant ->
+                variant.outputs.each { output ->
+                    output.outputFileName = "$applicationId-v${defaultConfig.versionName}.apk"
+                }
+            }
+            signingConfig signingConfigs.qb
+        }
+        debug {
+            signingConfig signingConfigs.qb
+        }
+    }
+    resourcePrefix ""
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: '*.jar')
+
+    annotationProcessor rootProject.ext.dependencies.butterknifeCompiler
+    implementation rootProject.ext.dependencies.cardview
+    implementation rootProject.ext.dependencies.flexbox
+    implementation rootProject.ext.dependencies.realtimeBlurView
+    implementation rootProject.ext.dependencies.agentWeb
+    implementation rootProject.ext.dependencies.banner
+    implementation rootProject.ext.dependencies.persistentCookieJar
+    implementation rootProject.ext.dependencies.revealLayout
+    implementation rootProject.ext.dependencies.keyboardCompat
+    implementation rootProject.ext.dependencies.swipelayout
+    implementation rootProject.ext.dependencies.disklrucache
+    implementation rootProject.ext.dependencies.multiStateView
+    implementation rootProject.ext.dependencies.pictureSelector
+    implementation rootProject.ext.dependencies.buglyCrashreport
+    implementation rootProject.ext.dependencies.crashActivity
+    implementation rootProject.ext.dependencies.wechatApi
+}

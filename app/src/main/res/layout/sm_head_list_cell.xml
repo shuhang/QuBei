@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="140dp">
+
+    <RelativeLayout
+        android:id="@+id/sm_head_list_cell_layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/sm_head_list_cell_layout1_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/corner_bg_red_25"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            app:riv_corner_radius="80dp"
+            app:riv_mutate_background="true" />
+
+        <TextView
+            android:id="@+id/sm_head_list_cell_layout1_text"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:singleLine="true"
+            android:text="头像"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/corner_bg_light_blue_10"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sm_head_list_cell_layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/sm_head_list_cell_layout2_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/corner_bg_red_25"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            app:riv_corner_radius="80dp"
+            app:riv_mutate_background="true" />
+
+        <TextView
+            android:id="@+id/sm_head_list_cell_layout2_text"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:singleLine="true"
+            android:text="头像"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/corner_bg_light_blue_10"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sm_head_list_cell_layout3"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/sm_head_list_cell_layout3_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/corner_bg_red_25"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            app:riv_corner_radius="80dp"
+            app:riv_mutate_background="true" />
+
+        <TextView
+            android:id="@+id/sm_head_list_cell_layout3_text"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:singleLine="true"
+            android:text="头像"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/corner_bg_light_blue_10"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
